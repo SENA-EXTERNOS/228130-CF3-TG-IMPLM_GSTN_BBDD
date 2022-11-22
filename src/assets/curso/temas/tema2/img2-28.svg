@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="401" height="131" viewBox="0 0 401 131">
+  <g id="Grupo_146542" data-name="Grupo 146542" transform="translate(-600 -10350)">
+    <path id="Trazado_203851" data-name="Trazado 203851" d="M0,0,401,2.464V131L0,128.536Z" transform="translate(600 10350)" fill="#fff4da"/>
+    <rect id="Rectángulo_296841" data-name="Rectángulo 296841" width="10" height="131" transform="translate(600 10350)" fill="#ffb30b"/>
+    <text id="CREATE_TABLESPACE_tablespace_name_ADD_DATAFILE_file_name_FILE_BLOCK_SIZE_value_ENGINE_engine_name_" data-name="CREATE TABLESPACE tablespace_name
+    [ADD DATAFILE &apos;file_name&apos;]
+    [FILE_BLOCK_SIZE = value]
+        [ENGINE [=] engine_name]" transform="translate(630 10370)" fill="#07a" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="17">CREATE TABLESPACE </tspan><tspan y="17" fill="#12263f">tablespace_name</tspan><tspan fill="#9c9c9c"><tspan x="0" y="41" xml:space="preserve">    [</tspan><tspan y="41" fill="#07a">ADD DATAFILE </tspan><tspan y="41" fill="#669901">&apos;file_name&apos;</tspan><tspan y="41">]</tspan><tspan x="0" y="65" xml:space="preserve">    [</tspan><tspan y="65" fill="#07a">FILE_BLOCK_SIZE</tspan><tspan y="65"> </tspan><tspan y="65" fill="#a98460">=</tspan><tspan y="65"> </tspan><tspan y="65" fill="#12263f">value</tspan><tspan y="65">]</tspan><tspan x="0" y="89" xml:space="preserve">        [</tspan><tspan y="89" fill="#07a">ENGINE</tspan><tspan y="89" xml:space="preserve"> [</tspan><tspan y="89" fill="#a98460">=</tspan><tspan y="89">] </tspan><tspan y="89" fill="#12263f">engine_name</tspan><tspan y="89">]</tspan></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="689" viewBox="0 0 1240 689">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.494" cy="-0.044" r="18.319" gradientTransform="translate(0.316 -0.041) scale(0.026 0.059)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.102"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_146527" data-name="Grupo 146527" transform="translate(-180 -6145)">
+    <g id="Grupo_146512" data-name="Grupo 146512" transform="translate(-0.033 2212)">
+      <g id="hr-before-h2" transform="translate(455.033 4579.59)">
+        <rect id="Rectángulo_5131" data-name="Rectángulo 5131" width="732.967" height="15.7" transform="translate(0.001 -33)" fill="url(#radial-gradient)"/>
+      </g>
+      <rect id="Rectángulo_293895" data-name="Rectángulo 293895" width="1240" height="135" transform="translate(180.034 4487)" fill="none"/>
+    </g>
+    <ellipse id="Elipse_5182" data-name="Elipse 5182" cx="168.975" cy="84.487" rx="168.975" ry="84.487" transform="translate(632 6338)" fill="#084a93"/>
+    <text id="Los_triggers_son_utilizados_para_lo_siguiente" data-name="Los triggers son 
+utilizados para lo siguiente" transform="translate(801 6416)" fill="#fff" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-75.835" y="0">Los triggers son </tspan><tspan x="-121.831" y="27">utilizados para lo siguiente</tspan></text>
+    <path id="Trazado_203844" data-name="Trazado 203844" d="M116.315,78.179l-157.5-103.5" transform="translate(569.185 6279.321)" fill="none" stroke="#084a93" stroke-width="5"/>
+    <line id="Línea_474" data-name="Línea 474" y1="92" x2="142" transform="translate(915.5 6265.5)" fill="none" stroke="#084a93" stroke-miterlimit="10" stroke-width="5"/>
+    <line id="Línea_475" data-name="Línea 475" x1="71.817" y2="39.337" transform="translate(569.185 6450.669)" fill="none" stroke="#084a93" stroke-miterlimit="10" stroke-width="5"/>
+    <line id="Línea_476" data-name="Línea 476" x2="83.842" y2="25.197" transform="translate(947.293 6464.809)" fill="none" stroke="#084a93" stroke-miterlimit="10" stroke-width="5"/>
+    <line id="Línea_477" data-name="Línea 477" y2="59.045" transform="translate(800.594 6507.341)" fill="none" stroke="#084a93" stroke-miterlimit="10" stroke-width="5"/>
+    <g id="Rectángulo_296825" data-name="Rectángulo 296825" transform="translate(915 6145)" fill="#f5faff" stroke="#00defc" stroke-linecap="round" stroke-width="4">
+      <rect width="271" height="135" rx="10" stroke="none"/>
+      <rect x="2" y="2" width="267" height="131" rx="8" fill="none"/>
+    </g>
+    <g id="Rectángulo_296826" data-name="Rectángulo 296826" transform="translate(414 6145)" fill="#f5faff" stroke="#00defc" stroke-linecap="round" stroke-width="4">
+      <rect width="271" height="135" rx="10" stroke="none"/>
+      <rect x="2" y="2" width="267" height="131" rx="8" fill="none"/>
+    </g>
+    <g id="Rectángulo_296827" data-name="Rectángulo 296827" transform="translate(309 6430)" fill="#f5faff" stroke="#00defc" stroke-linecap="round" stroke-width="4">
+      <rect width="271" height="135" rx="10" stroke="none"/>
+      <rect x="2" y="2" width="267" height="131" rx="8" fill="none"/>
+    </g>
+    <text id="Posibilitar_la_realización_de_operaciones_de_manipulación_sobre_vistas." data-name="Posibilitar la realización
+de operaciones de
+manipulación sobre
+vistas." transform="translate(1051 6182)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-84.465" y="0">Posibilitar la realización</tspan><tspan x="-65.121" y="24">de operaciones de</tspan><tspan x="-70.117" y="48">manipulación sobre</tspan><tspan x="-23.137" y="72">vistas.</tspan></text>
+    <text id="Prevenir_transacciones_erróneas." data-name="Prevenir
+transacciones
+erróneas." transform="translate(550 6194)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-29.117" y="0">Prevenir</tspan><tspan x="-50.063" y="24">transacciones</tspan><tspan x="-33.449" y="48">erróneas.</tspan></text>
+    <text id="Implementar_reglas_administrativas_complejas" data-name="Implementar reglas
+administrativas
+complejas" transform="translate(445 6479)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-69.023" y="0">Implementar reglas</tspan><tspan x="-54.66" y="24">administrativas</tspan><tspan x="-36.816" y="48">complejas</tspan></text>
+    <g id="Rectángulo_296828" data-name="Rectángulo 296828" transform="translate(1020 6430)" fill="#f5faff" stroke="#00defc" stroke-linecap="round" stroke-width="4">
+      <rect width="271" height="135" rx="10" stroke="none"/>
+      <rect x="2" y="2" width="267" height="131" rx="8" fill="none"/>
+    </g>
+    <g id="Rectángulo_296829" data-name="Rectángulo 296829" transform="translate(665 6564)" fill="#f5faff" stroke="#00defc" stroke-linecap="round" stroke-width="4">
+      <rect width="271" height="135" rx="10" stroke="none"/>
+      <rect x="2" y="2" width="267" height="131" rx="8" fill="none"/>
+    </g>
+    <text id="Generar_automáticamente_valores_derivados" data-name="Generar
+automáticamente
+valores derivados" transform="translate(1156 6479)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-27.949" y="0">Generar</tspan><tspan x="-62.832" y="24">automáticamente</tspan><tspan x="-62.488" y="48">valores derivados</tspan></text>
+    <text id="Auditar_las_actualizaciones_e_incluso_enviar_alertas" data-name="Auditar las 
+actualizaciones e,
+incluso, enviar alertas" transform="translate(801 6613)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-40.09" y="0">Auditar las </tspan><tspan x="-63.371" y="24">actualizaciones e,</tspan><tspan x="-77.164" y="48">incluso, enviar alertas</tspan></text>
+  </g>
+</svg>

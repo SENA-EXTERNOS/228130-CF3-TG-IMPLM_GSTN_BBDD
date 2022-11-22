@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Gestión y control de bases de datos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/228130-CF3-TG-IMPLM_GSTN_BBDD](https://sena-externos.github.io/228130-CF3-TG-IMPLM_GSTN_BBDD)
 
 #
 

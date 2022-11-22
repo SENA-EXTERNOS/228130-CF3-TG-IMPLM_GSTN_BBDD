@@ -10,10 +10,127 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+@media screen and (max-width:767px)
+  figure
+    img
+      max-width: 350px
+      margin: 1rem auto
+
+//CAMBIO DE TAMAÑO
+.animation-size
+  &-1
+    animation: size 3.5s ease infinite alternate
+    position: absolute
+    top: 70%
+    right: 90%
+  &-2
+    animation: size 3.5s ease infinite alternate-reverse
+    position: absolute
+    top: 25%
+    right: 62%
+
+// COLORES CORTOS
+.cac
+  color: $color-acento-contenido !important
+
+.cab
+  color: $color-acento-botones !important
+
+.cp
+  color: $color-primario !important
+
+.cs
+  color: $color-secundario !important
+
+.cst
+  color: $color-sistema-texto !important
+
+.cfc
+  background-color: #FFF4DA !important
+
+.cltc
+  background-color: #471E89 !important
+
+.banner-interno__fondo
+    background-position: bottom !important
+
+.bloque-texto-i
+  background-color: #D9F9FF
+  &:before
+    background-color: #F2F6FA
+
+.bloque-texto-1
+  background-color: #DEF2F2
+  &:before
+    background-color: #FBE4B0
+
+.bloque-texto-g
+  background-color: #FFFFFF
+  &:before
+    background-color: #084A93
+
+.contenedor-dashed
+  border: 2px dashed #004B89
+
+.bloque-texto-1
+  background-color: #DEF3F3
+  &:before
+    background-color: #FCE3AC
+
+.bloque-texto-izquierda
+  .bloque-texto-a:before
+    left: 0  !important
+    right: 50% !important
+
+.tarjeta--azul
+  background-color: #F5FAFF !important
+
+.tarjeta--azul-2
+  background-color: #E7F3FF !important
+
+.tarjeta--gris
+  background-color: #F6F6F6 !important
+
+.tarjeta--boton
+  background-color: #FFECC1
+
+.img1-4
+  background-image: url('../assets/curso/temas/tema1/img1-4.svg') !important
+  background-size: cover
+
+.slyder-a__bullets__item--active
+  background-color: #084A93 !important
+.slyder-a__bullets__item
+  background-color: #A2BDD9
+
+.acordion__accion__btn--a
+  background-color: #084A93 !important
+  i
+    color: $white
+
+// .linea-tiempo-c.color-acento-contenido 
+//   .linea-tiempo-c__header__item--active 
+//     border-color: #471E89 !important
+
+// .linea-tiempo-c__header__item__dot
+//   border-color: #471E89 !important
+
+//.linea-tiempo-c__header__item__line-container:before
+  //background-color: #471E89 !important
+
+.img2-14
+  &::before
+    background-image: url('../assets/curso/temas/tema2/img2-14.png')
+    background-size: cover
+    background-position: center center
+
+.slyder-f__btn.mb-5.chevron
+  i
+    color: #707BA3 !important
