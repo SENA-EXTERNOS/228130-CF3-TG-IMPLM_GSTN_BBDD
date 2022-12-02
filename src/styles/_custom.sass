@@ -10,6 +10,19 @@
     top: 61%
     right: 44%
 
+//CAMBIO DE TAMAÑO
+.animation-size
+  &-1
+    animation: size 3.5s ease infinite alternate
+    position: absolute
+    top: 80%
+    right: 60%
+  &-2
+    animation: size 3.5s ease infinite alternate-reverse
+    position: absolute
+    top: 10%
+    right: 10%
+
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -17,20 +30,7 @@
   100%
     transform: translateY(0px)
 
-//CAMBIO DE TAMAÑO
-.animation-size
-  &-1
-    animation: size 3.5s ease infinite alternate
-    position: absolute
-    top: 10%
-    right: 10%
-  &-2
-    animation: size 3.5s ease infinite alternate-reverse
-    position: absolute
-    top: 25%
-    right: 20%
-
-//CAMBIO DE TAMAÑO
+//CAMBIO DE TAMAÑO / ZOOM
 @keyframes size
   0%
     transform: scale(0.8)
@@ -39,11 +39,10 @@
   100%
     transform: scale(1.4)
 
-@media screen and (max-width:767px)
-  figure
-    img
-      max-width: 350px
-      margin: 1rem auto
+@media screen and (max-width: 767px)
+  figure > img
+    max-width: 350px
+      margin: 1rem auto;
 
 //CAMBIO DE TAMAÑO
 .animation-size
@@ -80,8 +79,30 @@
 .cltc
   background-color: #471E89 !important
 
+.cnltd
+  background-color: rgba(19, 138, 248, .25) !important
+
 .banner-interno__fondo
     background-position: bottom !important
+
+.tarjeta-avatar
+  .tarjeta--boton.color-secundario.p-4
+    height: 280px
+
+.tarjeta-avatar
+  img
+    border-radius: 50%
+    background-color: #FDB32B
+
+.tarjeta-avatar
+  img:hover
+    background-color: #B9DDFC
+
+.tarjeta.color-primario.p-4
+  height: 443.8px
+
+.bloque-texto-b.color-secundario:before
+  background-color: rgba(185, 221, 252, .25)
 
 .bloque-texto-i
   background-color: #D9F9FF
@@ -111,8 +132,11 @@
     left: 0  !important
     right: 50% !important
 
+.bloque-texto-a.color-acento-botones.p-4.p-md-5.img2-14
+  background-color: #DEF3F3
+
 .tarjeta--azul
-  background-color: #F5FAFF !important
+  background-color: rgba(185, 221, 252, .15) !important
 
 .tarjeta--azul-2
   background-color: #E7F3FF !important
@@ -123,8 +147,16 @@
 .tarjeta--boton
   background-color: #FFECC1
 
+.tarjeta.color-primario.img1-4.p-4
+  height: 80%
 .img1-4
   background-image: url('../assets/curso/temas/tema1/img1-4.svg') !important
+  background-size: cover
+
+.tarjeta.color-primario.img1-5.p-4
+  height: 260px  
+.img1-5
+  background-image: url('../assets/curso/temas/tema1/img1-5.svg') !important
   background-size: cover
 
 .slyder-a__bullets__item--active
@@ -136,6 +168,9 @@
   background-color: #084A93 !important
   i
     color: $white
+
+.acordion__activo
+  background-color: #E8E8E8 !important
 
 // .linea-tiempo-c.color-acento-contenido 
 //   .linea-tiempo-c__header__item--active 
@@ -156,3 +191,21 @@
 .slyder-f__btn.mb-5.chevron
   i
     color: #707BA3 !important
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: rgba(19, 138, 248, .25)
+.linea-tiempo-d__item__content__slot
+  background-color: rgba(19, 138, 248, .25)
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: rgba(19, 138, 248, .25) 
+.linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: rgba(19, 138, 248, .25) !important
+
+.slyder-a__btn--sigt
+  background-color: #B9DDFC
+.slyder-a__btn--atrs
+  background-color: #B9DDFC
+
+.text-der
+  direction: rtl
+  text-align: right

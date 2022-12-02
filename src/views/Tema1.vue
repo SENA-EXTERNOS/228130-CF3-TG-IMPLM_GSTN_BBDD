@@ -8,7 +8,7 @@
       h1 Definición y conceptos de algoritmos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-6.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img1-1.png', alt='Escribiendo en portátil')
       .col-lg-6(data-aos="fade-left")
@@ -39,15 +39,15 @@
               br            
             p.text-align-right.mb-0 Coronel, Morris & Rob, (2011)
             i.fas.fa-quote-right
-      .col-lg-6(data-aos="fade-left")
+      .col-lg-6.mb-sm-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema1/img1-2.svg', alt='Database Administrator')
       
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1(data-aos="fade-right")
+      .col-lg-1.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img1-3.svg', alt='Banco de datos')
-      .col-lg-11(data-aos="fade-left")
+      .col-lg-11.col-sm-10(data-aos="fade-left")
         p.mb-0 Las bases de datos deben tener aliados que les permitan a los administradores hacer mejor su trabajo, es decir con más rapidez, se debe recordar que los datos se almacenan con el objetivo de ser guardados y posteriormente consultados, eliminados o modificados; además que la dinámica de una base de dato es tener actores que intervienen en ellas permitiendo la alimentación de la información, hablando de usuarios y administrando la información para la cual existen herramientas de gestión de bases de datos que facilitan el trabajo, como las que se a continuación.
 
     .tarjeta.tarjeta--azul.p-4
@@ -67,7 +67,7 @@
               em PostgreSQL 
               |y facilita enormemente la administración.
             .col-lg-10.mx-auto
-              .tarjeta.color-primario.img1-4.p-4
+              .tarjeta.color-primario.img1-5.p-4
                 .row.justify-content-around.align-items-center
                   .col-auto
                     .row.justify-content-center.align-items-center.mb-3
@@ -124,7 +124,9 @@
         .row
           .col-md-5.mb-4.mb-md-0
             h4 Heidi SQL
-            p Es una interfaz gráfica de software libre y de código abierto multi gestión porque permite la conexión de bases de datos como 
+            p Es una interfaz gráfica de 
+              em software 
+              |libre y de código abierto multi gestión porque permite la conexión de bases de datos como 
               em MySQL, Microsoft SQL Server y PostgreSQL
               |. Únicamente se puede trabajar en el sistema operativo 
               em Windows
@@ -164,10 +166,10 @@
       h2 1.2 Sistema de permisos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3(data-aos="fade-right")
+      .col-lg-3.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img1-8.svg', alt='Permisos')
-      .col-lg-9(data-aos="fade-left")
+      .col-lg-9.col-sm-10(data-aos="fade-left")
         p Cuando se habla de permisos, se enfoca en el acceso del Motor de base de datos que es administrado al nivel del servidor mediante inicios de sesión en el servidor y al nivel de base de datos mediante usuarios y contraseñas creados en la base de datos y roles que se otorga a dichos usuarios dependiendo de su función dentro de ella. El modelo de 
           em SQL Database 
           |sigue un parámetro similar o igual dentro de cada base de datos, pero los permisos de nivel de servidor no están disponibles.
@@ -395,7 +397,7 @@
                   |. Es posible otorgar cualquier privilegio a cualquier usuario.
                   
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5(data-aos="fade-right")
+      .col-lg-5.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img1-9.png', alt='Ojos frente a pantalla')
       .col-lg-7(data-aos="fade-left")
@@ -446,7 +448,7 @@
       h2 1.3 Lenguaje de control de datos DCL
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img1-11.svg', alt='Lenguaje DCL')
       .col-lg-8(data-aos="fade-left")
@@ -483,7 +485,7 @@
           .col-md-10.mb-4.mb-md-0
             p.mb-5
               b Autorizaciones: 
-              |para autorizar, el SQL dispone de la siguiente sentencia con el usuario creado para este caso es jorge al cual se le va a dar privilegios:
+              |para autorizar, el SQL dispone de la siguiente sentencia con el usuario creado para este caso es Jorge al cual se le va a dar privilegios:
             .row.justify-content-center
               .col-lg-8
                 .titulo-sexto.color-acento-contenido
@@ -545,7 +547,7 @@
       |. Estos privilegios se pueden revocar y otorgar en diferentes niveles.
 
     .row.justify-content-center.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src="@/assets/curso/temas/tema1/img1-17.svg" alt="Revocado")
       .col-lg-8(data-aos="zoom-in")
@@ -594,7 +596,7 @@
       h2 1.4 Gestión de seguridad
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src="@/assets/curso/temas/tema1/img1-18.svg" alt="Seguridad")
       .col-lg-8(data-aos="fade-left")
@@ -619,21 +621,21 @@
             em PASSWORD EXPIRE DEFAULT
           p.text-small(numero="6" titulo="Bloqueo de cuenta")
             em ACCOUNT UNLOCK
-      .col-lg-5
+      .col-lg-5.order-sm-first.order-lg-last.mb-sm-4
         figure
           img(src="@/assets/curso/temas/tema1/img1-19.svg" alt="Seguridad")
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1(data-aos="fade-right")
+      .col-lg-1.col-sm-2(data-aos="fade-right")
         figure
           img(src="@/assets/curso/temas/tema1/img1-20.svg" alt="Seguridad")
-      .col-lg-11(data-aos="fade-left")
+      .col-lg-11.col-sm-10(data-aos="fade-left")
         p.mb-0 Se debe tener presente que cuando se crea una cuenta de usuario por primera vez, esta no tiene privilegios es labor del administrador de bases de datos asignarlos, cada usuario que sea asignado puede tener el valor 
           em auth option
           |, que significa autenticación opcional, estos valores pueden tomar valor de autenticación por ejemplo la contraseña; también se puede definir esta contraseña con expiración como se muestra a continuación:
 
     .row.justify-content-center.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src="@/assets/curso/temas/tema1/img1-21.svg" alt="Seguridad")
       .col-lg-8(data-aos="zoom-in")
@@ -703,7 +705,7 @@
                       em select user, plugin from mysql.user;
               .col-lg-5.mb-4.mb-lg-0.p-4
                 figure
-                  img(src='@/assets/curso/temas/tema1/img1-22.svg', alt='Código')
+                  img(src='@/assets/curso/temas/tema1/img1-22.svg', alt='Código' style='width: 210px')
 
     .row.justify-content-center.mb-5
       .col-lg-6(data-aos="zoom-in")
@@ -892,7 +894,7 @@
 
     .bloque-texto-a.bloque-texto-1.p-4.p-md-5.mb-5(data-aos="zoom-in")
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
+        .col-lg-4.mb-4.mb-lg-0.order-sm-first.order-lg-last
           figure
             img(src='@/assets/curso/temas/tema1/img1-27.svg', alt='Restauración')
         .col-lg-8.order-sm-first.order-lg-last

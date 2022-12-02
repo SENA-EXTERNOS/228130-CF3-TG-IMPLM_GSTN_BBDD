@@ -16,9 +16,9 @@
             p Convertir ciertos movimientos en movimientos automáticos o indeliberados o aplicar la automática a un proceso o a un dispositivo; cuando se implementa la automatización en las bases de datos se habla de una serie de instrucciones o códigos que posibilitan la creación de tareas programadas desde el gestor sin que sea operado por el administrador de la base de datos o usuarios que participan dentro de ella. Es decir, cuando se hacen procesos que son repetitivos diariamente en una base de datos o en determinada hora en vez de realizar este proceso manualmente se puede crear una automatización con una serie de pasos para que el sistema genere dicha tarea, así el tiempo de atención en tareas será mínimo porque se tendrán los resultados arrojados por el sistema.
             br
             br
-            p.mb-0 La RAE
+            p.text-der.mb-0 La RAE
             i.fas.fa-quote-right
-      .col-lg-5
+      .col-lg-5.order-sm-first.order-lg-last.mb-sm-4
         figure
           img(src='@/assets/curso/temas/tema2/img2-1.png', alt='Automatización')
 
@@ -143,7 +143,7 @@
       h2 2.2 Procedimientos y funciones de almacenados
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-5.png', alt='Persona usando tablet')
       .col-lg-8(data-aos="fade-left")
@@ -179,40 +179,43 @@
       |el sistema de permisos ha cambiado, para realizar los procedimientos almacenados se deben activar los siguientes permisos:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
-        .tarjeta--boton.color-secundario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema2/img2-6.svg', alt='Uno')
-          p.text-small
-            b 
-              em CREATE ROUTINE 
-            |crear procedimientos almacenados.
-      .col-lg-4
-        .tarjeta--boton.color-secundario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema2/img2-7.svg', alt='Dos')
-          p.text-small
-            b 
-              em ALTER ROUTINE 
-            |se realiza para cambiar o borrar procedimientos almacenados.
-      .col-lg-4
-        .tarjeta--boton.color-secundario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema2/img2-8.svg', alt='Tres')
-          p.text-small
-            b 
-              em EXECUTE 
-            |para ejecutar procedimientos almacenados. Este procedimiento se genera cuando creamos una rutina para el mismo caso 
-            b 
-              em SQL SECURITY y DEFINER
-            |, permite a los usuarios con acceso a la base de datos registrar la rutina asociada.
-
+      .col-lg-4.mb-sm-4
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/img2-6.svg', alt='Uno')
+          .tarjeta--boton.color-secundario.p-4
+            .text-center.mt-4
+              p.text-center
+                br
+                br
+                b 
+                  em CREATE ROUTINE 
+                |crear procedimientos almacenados.
+      .col-lg-4.mb-sm-4
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/img2-7.svg', alt='Dos')
+          .tarjeta--boton.color-secundario.p-4
+            .text-center.mt-4
+              p.text-center
+                br
+                br
+                b 
+                  em ALTER ROUTINE 
+                |se realiza para cambiar o borrar procedimientos almacenados.
+      .col-lg-4.mb-sm-4
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/img2-8.svg', alt='Tres')
+          .tarjeta--boton.color-secundario.p-4
+            .text-center.mt-4
+              p.text-center
+                br
+                br
+                b 
+                  em EXECUTE 
+                |para ejecutar procedimientos almacenados. Este procedimiento se genera cuando creamos una rutina para el mismo caso 
+                b 
+                  em SQL SECURITY y DEFINER
+                |, permite a los usuarios con acceso a la base de datos registrar la rutina asociada.
+              
     p.mb-5 A continuación, se muestran los usos de las sintaxis de procedimientos almacenados según la opción que se vaya a realizar.
   
     TabsC.color-acento-contenido.mb-5
@@ -265,10 +268,10 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1(data-aos="fade-right")
+      .col-lg-1.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-10.svg', alt='Código')
-      .col-lg-11(data-aos="fade-left")
+      .col-lg-11.col-sm-10(data-aos="fade-left")
         p Los 
           em triggers 
           |o disparadores de base de datos son bloques 
@@ -285,7 +288,7 @@
           img(src='@/assets/curso/temas/tema2/img2-11.svg', alt='Concepto de trigger')
 
     .row.justify-content-center.mb-5
-      .col-lg-3(data-aos="fade-right")
+      .col-lg-3.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-12.svg', alt='Persona trabajando')
       .col-lg-9(data-aos="fade-left")
@@ -310,7 +313,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.img2-14(data-aos="flip-up")
+        .bloque-texto-a.color-acento-botones.p-4.p-md-5.img2-14(data-aos="flip-up")
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .contenedor-dashed.p-4
@@ -354,7 +357,7 @@
       em Mysql:
 
     .row.justify-content-center.mb-5
-      .col-lg-4(data-aos="fade-left")
+      .col-lg-4.mb-sm-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema2/img2-20.svg', alt='Persona trabajando')
       .col-lg-8(data-aos="zoom-in")
@@ -394,12 +397,13 @@
       h2 2.5 Eventos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1(data-aos="fade-right")
+      .col-lg-1.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-22.svg', alt='Persona trabajando')
-      .col-lg-11(data-aos="fade-left")
+      .col-lg-11.col-sm-10(data-aos="fade-left")
         p Los eventos son tareas que se programan en un sistema gestor de base de datos en un momento de tiempo determinado, estas permiten a los administradores programar tareas para que ejecuten acciones en ciertos periodos de tiempo, en un momento en concreto; para el caso en 
-          em Mysql se pueden registrar a partir de la versión 5.1.
+          em Mysql 
+          |se pueden registrar a partir de la versión 5.1.
         p.mb-0 Para crear un evento se tiene primero la tabla 
           em test
           |:
@@ -448,7 +452,7 @@
           em tablespace 
           |se considera como un concepto lógico. Son archivos virtuales acumulados de muchas tablas, donde se almacenan registros, sirven para trabajar sobre tablas que se necesitan para realizar una tarea específica, minimizando los recursos del servidor y permitiendo realizar tareas más rápidas por la utilización del recurso que se necesita para dicha tarea; A continuación, se observa cómo se crea una 
           em tablespece.
-      .col-lg-3(data-aos="fade-right")
+      .col-lg-3.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-27.svg', alt='Persona trabajando')
 
@@ -463,7 +467,7 @@
       h2 2.7 Tablas e índices
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3(data-aos="fade-right")
+      .col-lg-3.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-29.svg', alt='Persona trabajando')
       .col-lg-9(data-aos="fade-left")
@@ -480,7 +484,7 @@
     p.mb-5 Sintaxis para crear índices:
 
     .row.justify-content-center.mb-5
-      .col-lg-4(data-aos="fade-right")
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-31.png', alt='Código')
       .col-lg-8(data-aos="fade-left")
@@ -500,7 +504,7 @@
                 |; como se menciona anteriormente, las claves primarias no contienen valores nulos. Si se intenta crear una clave primaria sobre un campo nulo, 
                 em MySQL 
                 |arrojará un error.
-          .row(numero="2" titulo="Crear el índice de clave primaria al instante de crear la tabla")
+          .row(numero="2" titulo="Crear una clave primaria en una tabla existente con el uso del comando <em>ALTER TABLE</em>")
             .col-lg-12
               p
                 .titulo-sexto.color-acento-contenido.cfc
@@ -527,11 +531,11 @@
       b Observar el siguiente ejemplo:
 
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-32.svg', alt='Código ejemplo')
 
-    p El campo id no tiene un valor 
+    p(data-aos="fade-down") El campo id no tiene un valor 
       em YES 
       |en la columna 
       em Null
