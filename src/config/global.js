@@ -7,7 +7,7 @@ export default {
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['animation-size-1', 'd-none', 'd-lg-block'],
+        clases: ['animation-size-1'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
@@ -15,7 +15,7 @@ export default {
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        clases: ['banner-principal-decorativo-1', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
       {

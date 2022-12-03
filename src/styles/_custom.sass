@@ -1,27 +1,27 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 4s ease-in-out infinite alternate
     position: absolute
     top: 26%
     right: 38%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 4s ease-in-out infinite alternate-reverse
     position: absolute
     top: 61%
     right: 44%
-
+  
 //CAMBIO DE TAMAÑO
 .animation-size
   &-1
     animation: size 3.5s ease infinite alternate
     position: absolute
-    top: 80%
-    right: 60%
+    top: 72%
+    right: 65%
   &-2
     animation: size 3.5s ease infinite alternate-reverse
     position: absolute
-    top: 10%
-    right: 10%
+    top: 20%
+    right: 14%
 
 @keyframes float1
   0%
@@ -35,27 +35,14 @@
   0%
     transform: scale(0.8)
   50%
-    transform: scale(1.1)
+    transform: scale(1)
   100%
-    transform: scale(1.4)
+    transform: scale(1.2)
 
 @media screen and (max-width: 767px)
   figure > img
     max-width: 350px
       margin: 1rem auto;
-
-//CAMBIO DE TAMAÑO
-.animation-size
-  &-1
-    animation: size 3.5s ease infinite alternate
-    position: absolute
-    top: 70%
-    right: 90%
-  &-2
-    animation: size 3.5s ease infinite alternate-reverse
-    position: absolute
-    top: 25%
-    right: 62%
 
 // COLORES CORTOS
 .cac
