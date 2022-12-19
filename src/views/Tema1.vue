@@ -37,7 +37,7 @@
               br 
               |“Son estructuras especializadas que permiten a sistemas computarizados guardar, manejar y recuperar datos con gran rapidez”.
               br            
-            p.text-align-right.mb-0 Coronel, Morris & Rob, (2011)
+            p.text-der.mb-0 Coronel, Morris & Rob, (2011)
             i.fas.fa-quote-right
       .col-lg-6.mb-sm-4(data-aos="fade-left")
         figure
@@ -523,20 +523,21 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img1-14.png', alt='Sentencia para dar privilegios de usuario')   
 
-    .col-lg-10.mx-auto.mb-5(data-aos="flip-up")
-      .tarjeta.color-primario.img1-4.p-4
-        .row.justify-content-around.align-items-center
-          .col-1.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema1/img1-16.svg" alt="Página Web")
-          .col-auto
-            .row.justify-content-between.align-items-center.mb-3
-              .col-auto.mb-3.mb-sm-0
-                p.text-small.mb-0 Para afianzar los conocimientos sobre los privilegios se sugiere visitar la siguiente página web:
-              .col.mb-3.mb-sm-0
-                a.boton.color-acento-botones(a href="https://dev.mysql.com/doc/refman/5.7/en/creating-accounts.html#creating-accounts-granting-privileges" target="_blank" type="application/url")
-                  span(style='color:#12263F !important') Enlace web
-                  i.fas.fa-link(style='color:#12263F !important')
-
+    .row.justify-content-center.mb-5
+      .col-lg-10(data-aos="flip-up")
+        .tarjeta.bg-gradient.p-4
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/tema1/img1-16.svg" alt="Página Web")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.text-white
+                  p.text-small Para afianzar los conocimientos sobre los privilegios se sugiere visitar la siguiente página web:
+                .col-sm-auto
+                  a.boton.color-acento-botones(a href="https://dev.mysql.com/doc/refman/5.7/en/creating-accounts.html#creating-accounts-granting-privileges" target="_blank" type="application/url")
+                    span.cst Enlace web
+                    i.fas.fa-link(style='color:#12263F !important')
+    
     h3(data-aos="fade-right")
       i.fas.fa-square.cac.me-3
       |Sentencia de control 
@@ -892,27 +893,29 @@
         em scripts 
         |de restauración
 
-    .bloque-texto-a.bloque-texto-1.p-4.p-md-5.mb-5(data-aos="zoom-in")
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0.order-sm-first.order-lg-last
-          figure
-            img(src='@/assets/curso/temas/tema1/img1-27.svg', alt='Restauración')
-        .col-lg-8.order-sm-first.order-lg-last
-          .contenedor-dashed.p-4
-            .bloque-texto-a__texto.p-4
-              p.mb-0 Un 
-                em script 
-                |se entiende como la creación de un archivo de órdenes que permiten facilitar las operaciones diarias dentro de la base de datos, los 
-                em scripts 
-                |se pueden crear en archivos de texto como los blocs de notas o en su defecto 
-                em Notepad 
-                |donde se crean 
-                em scripts 
-                |en ciertos lenguajes, para poder ejecutar el 
-                em script 
-                |se debe guardar con 
-                em .sql 
-                |para que al momento de hacer el llamado desde el gestor de base de datos se pueda ejecutar y realizar la acción que se le solicitó.
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-a.bloque-texto-1.p-4.p-md-5.mb-5(data-aos="zoom-in")
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0.order-sm-first.order-lg-last
+              figure
+                img(src='@/assets/curso/temas/tema1/img1-27.svg', alt='Restauración')
+            .col-lg-8.order-sm-first.order-lg-last
+              .contenedor-dashed.p-4
+                .bloque-texto-a__texto.p-4
+                  p.mb-0 Un 
+                    em script 
+                    |se entiende como la creación de un archivo de órdenes que permiten facilitar las operaciones diarias dentro de la base de datos, los 
+                    em scripts 
+                    |se pueden crear en archivos de texto como los blocs de notas o en su defecto 
+                    em Notepad 
+                    |donde se crean 
+                    em scripts 
+                    |en ciertos lenguajes, para poder ejecutar el 
+                    em script 
+                    |se debe guardar con 
+                    em .sql 
+                    |para que al momento de hacer el llamado desde el gestor de base de datos se pueda ejecutar y realizar la acción que se le solicitó.
 
     .tarjeta.tarjeta--azul-2.p-4.mb-5
       LineaTiempoC.color-acento-contenido(text-small)

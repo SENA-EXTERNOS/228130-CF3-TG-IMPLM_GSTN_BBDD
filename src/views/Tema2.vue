@@ -53,56 +53,58 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img2-2.svg', alt='Herramientas para automatización')
 
-    .row.mb-5
+    .row.mb-4
       .col-lg-6(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           h5 Figura 12.
           br
           em Herramientas para la gestión de la información
 
-    ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-right")
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema2/img2-3.svg', alt='Herramientas SQL')
-      .tarjeta.color-acento-contenido.p-3(x="24%" y="82%" numero="")
-        p.text-center Con esta herramienta podemos realizar modelado de datos, está dada para el desarrollo 
-          em SQL 
-          |y diseño, gestión, administración y mantenimiento de bases de datos. Creada por la empresa Oracle se puede instalar en 
-          em Windows, Linux y Mac OS.
-      .tarjeta.color-acento-contenido.p-3(x="40%" y="82%" numero="")
-        p.text-center Herramienta gráfica realizada por la empresa 
-          em PremiumSoft CyberTech Ltd. 
-          |Contiene una interfaz gráfica intuitiva, con esta se pueden realizar desarrollo, mantenimiento y gestión de bases de datos. Soportada para 
-          em MySQL
-          |. Se puede instalar en 
-          em Windows, Linux y Mac OS.
-      .tarjeta.color-acento-contenido.p-3(x="57%" y="82%" numero="")
-        p.text-center Herramienta de uso libre que tiene la posibilidad de conectarse al servidor 
-          em MySQL, Microsoft SQL Server y PostgreSQL 
-          |y soporta sistemas operativos 
-          em Windows
-          |; permite ver y editar datos, puede exportar estructuras y datos, además de editar 
-          em triggers
-          |, vistas, procedimientos y tablas, entre otras funciones importantes para la gestión de los datos. 
-          em Ansgar Becker 
-          |es reconocido como su creador.
-      .tarjeta.color-acento-contenido.p-3(x="73%" y="82%" numero="")
-        p.text-center Herramienta utilizada para operaciones de datos, ejecutar consultas y 
-          em scripts SQL
-          |; por otra parte, hace fácil la copia de seguridad, la exportación y la importación de datos. Solo puede ser instalada en sistemas operativos 
-          em Windows.
-      .tarjeta.color-acento-contenido.p-3(x="88%" y="82%" numero="")
-        p.text-center Considerada como unas de las más robustas herramientas para la administración de datos. Solo compatible con 
-          em Windows
-          |, fue fabricada por 
-          em DB Tools Software
-          |; permite la administración de bases de datos, tablas (incluyendo indexadas, 
-          em triggers
-          |), dominios, entre otras funciones.
+    .row.justify-content-center.mb-5
+      .col-lg-12.col-sm-8(data-aos="fade-right")
+        ImagenInfografica.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema2/img2-3.svg', alt='Herramientas SQL')
+          .tarjeta.color-acento-contenido.p-3(x="24%" y="82%" numero="")
+            p.text-center Con esta herramienta podemos realizar modelado de datos, está dada para el desarrollo 
+              em SQL 
+              |y diseño, gestión, administración y mantenimiento de bases de datos. Creada por la empresa Oracle se puede instalar en 
+              em Windows, Linux y Mac OS.
+          .tarjeta.color-acento-contenido.p-3(x="40%" y="82%" numero="")
+            p.text-center Herramienta gráfica realizada por la empresa 
+              em PremiumSoft CyberTech Ltd. 
+              |Contiene una interfaz gráfica intuitiva, con esta se pueden realizar desarrollo, mantenimiento y gestión de bases de datos. Soportada para 
+              em MySQL
+              |. Se puede instalar en 
+              em Windows, Linux y Mac OS.
+          .tarjeta.color-acento-contenido.p-3(x="57%" y="82%" numero="")
+            p.text-center Herramienta de uso libre que tiene la posibilidad de conectarse al servidor 
+              em MySQL, Microsoft SQL Server y PostgreSQL 
+              |y soporta sistemas operativos 
+              em Windows
+              |; permite ver y editar datos, puede exportar estructuras y datos, además de editar 
+              em triggers
+              |, vistas, procedimientos y tablas, entre otras funciones importantes para la gestión de los datos. 
+              em Ansgar Becker 
+              |es reconocido como su creador.
+          .tarjeta.color-acento-contenido.p-3(x="73%" y="82%" numero="")
+            p.text-center Herramienta utilizada para operaciones de datos, ejecutar consultas y 
+              em scripts SQL
+              |; por otra parte, hace fácil la copia de seguridad, la exportación y la importación de datos. Solo puede ser instalada en sistemas operativos 
+              em Windows.
+          .tarjeta.color-acento-contenido.p-3(x="88%" y="82%" numero="")
+            p.text-center Considerada como unas de las más robustas herramientas para la administración de datos. Solo compatible con 
+              em Windows
+              |, fue fabricada por 
+              em DB Tools Software
+              |; permite la administración de bases de datos, tablas (incluyendo indexadas, 
+              em triggers
+              |), dominios, entre otras funciones.
 
     .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="fade-left")
-        ImagenInfografica.color-acento-contenido.mb-5
+      .col-lg-10.col-sm-8(data-aos="fade-left")
+        ImagenInfografica.color-acento-contenido
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/img2-4.svg', alt='Herramientas NoSQL')
@@ -265,7 +267,7 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/QFOw90c64Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-1.col-sm-2(data-aos="fade-right")
@@ -438,7 +440,7 @@
         em Spaces
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8(data-aos="zoom-in")
+      .col-lg-8.col-sm-9(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido
           h5 Figura 14.
           br
@@ -477,7 +479,7 @@
         p.mb-0 A continuación, se encuentran los tipos de índices.
 
     .row.justify-content-center.mb-5
-      .col-lg-12
+      .col-lg-12.col-sm-9(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema2/img2-30.svg', alt='Tipos de índices')
 
