@@ -416,7 +416,7 @@
           em MongoDB.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10(data-aos="zoom-in")
+      .col-lg-10.col-sm-9(data-aos="zoom-in")
         ImagenInfografica.color-acento-contenido.mb-5
           template(v-slot:imagen)
             figure
@@ -917,7 +917,7 @@
                     em .sql 
                     |para que al momento de hacer el llamado desde el gestor de base de datos se pueda ejecutar y realizar la acción que se le solicitó.
 
-    .tarjeta.tarjeta--azul-2.p-4.mb-5
+    .tarjeta.tarjeta--azul-2.p-4.mb-5(data-aos="zoom-in")
       LineaTiempoC.color-acento-contenido(text-small)
         .row.align-items-center(titulo="Paso 1")
           .col-md-6.mb-4.mb-md-0

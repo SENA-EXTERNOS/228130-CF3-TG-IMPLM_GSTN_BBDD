@@ -8,7 +8,7 @@
       h1 Automatización de tareas
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         p Según la RAE la automatización significa:
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
@@ -18,12 +18,12 @@
             br
             p.text-der.mb-0 La RAE
             i.fas.fa-quote-right
-      .col-lg-5.order-sm-first.order-lg-last.mb-sm-4
+      .col-lg-5.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema2/img2-1.png', alt='Automatización')
 
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="flip-up")
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #FFF4DA")
           p.mb-0 Hoy en día todos los sistemas gestores de base de datos, comerciales y libres cuentan con herramientas para la automatización de la información. Existen en cada sistema gestor de base de datos herramientas avanzadas como en el caso de 
             em MySQL Enterprise monitor 
@@ -176,7 +176,7 @@
             b proc 
             |exista.
 
-    p.mb-5 Desde la versión 
+    p.mb-5(data-aos="fade-left") Desde la versión 
       em MySQL 5.0.3 
       |el sistema de permisos ha cambiado, para realizar los procedimientos almacenados se deben activar los siguientes permisos:
 
@@ -218,9 +218,9 @@
                   em SQL SECURITY y DEFINER
                 |, permite a los usuarios con acceso a la base de datos registrar la rutina asociada.
               
-    p.mb-5 A continuación, se muestran los usos de las sintaxis de procedimientos almacenados según la opción que se vaya a realizar.
+    p.mb-5(data-aos="fade-right") A continuación, se muestran los usos de las sintaxis de procedimientos almacenados según la opción que se vaya a realizar.
   
-    TabsC.color-acento-contenido.mb-5
+    TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="<em>CREATE PROCEDURE Y CREATE FUNCTION</em>")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -281,7 +281,7 @@
           |, programa de almacenados que se ejecutan o disparan automáticamente cuando se producen acciones como insertar, actualizar o eliminar. Existen tres tipos de disparadores de bases de datos.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6(data-aos="zoom-in")
+      .col-lg-6.col-sm-9(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido
           h5 Figura 13.
           br
@@ -305,8 +305,10 @@
             h4 Disparadores del sistema
             p Se disparan o alertan cuando ocurre una acción del sistema o una acción de definición de datos (creación, modificación o eliminación de una tabla u otro objeto).
 
-    figure(data-aos="zoom-in")
-      img(src='@/assets/curso/temas/tema2/img2-13.svg', alt='Uso de triggers')
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-sm-9(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema2/img2-13.svg', alt='Uso de triggers')
 
     Separador
 
@@ -355,11 +357,11 @@
         h2.text-center Mantenimiento de la integridad
         p.text-center Las vistas son datos extraídos de las tablas originales, si hay cambios de datos no afecta la tabla real, por ende, la integridad de los datos se mantiene.
 
-    p.mb-5  A continuación, se muestra cómo se hace para crear, ver y eliminar vistas en 
+    p.mb-5(data-aos="fade-right")  A continuación, se muestra cómo se hace para crear, ver y eliminar vistas en 
       em Mysql:
 
     .row.justify-content-center.mb-5
-      .col-lg-4.mb-sm-4(data-aos="fade-left")
+      .col-lg-4.mb-sm-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema2/img2-20.svg', alt='Persona trabajando')
       .col-lg-8(data-aos="zoom-in")
