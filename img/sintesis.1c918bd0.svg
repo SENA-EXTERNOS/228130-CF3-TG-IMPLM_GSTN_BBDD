@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1288" height="468" viewBox="0 0 1288 468">
+  <g id="Grupo_146546" data-name="Grupo 146546" transform="translate(-165.631 -531)">
+    <line id="Línea_329" data-name="Línea 329" y2="50.5" transform="translate(231.131 778.75)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <g id="Grupo_128825" data-name="Grupo 128825" transform="translate(174.965 -4464)">
+      <path id="Trazado_116030" data-name="Trazado 116030" d="M6.419,0H278.581C282.126,0,285,2.395,285,5.349v35.3c0,2.954-2.874,5.349-6.419,5.349H6.419C2.874,46,0,43.605,0,40.651V5.349C0,2.395,2.874,0,6.419,0Z" transform="translate(482.667 4995)" fill="#084a93"/>
+      <text id="GESTIÓN_DE_CUENTAS_DE_USUARIO" data-name="GESTIÓN DE CUENTAS DE USUARIO" transform="translate(502.667 5024)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Gestión de cuentas de usuario</tspan></text>
+    </g>
+    <text id="_" data-name=" " transform="translate(273.631 738)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0"> </tspan></text>
+    <line id="Línea_331" data-name="Línea 331" y2="173.25" transform="translate(537.131 779.25)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_488" data-name="Línea 488" y2="173.25" transform="translate(799.131 779.25)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_489" data-name="Línea 489" y2="173.25" transform="translate(1072.131 779.25)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_490" data-name="Línea 490" y2="173.25" transform="translate(1345.131 779.25)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <text id="_2" data-name=" " transform="translate(671.631 738)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0"> </tspan></text>
+    <text id="_3" data-name=" " transform="translate(1326.631 738)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0"> </tspan></text>
+    <line id="Línea_358" data-name="Línea 358" y2="29" transform="translate(277.131 829.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <rect id="Rectángulo_293700" data-name="Rectángulo 293700" width="223" height="95" rx="5" transform="translate(165.631 858)" fill="#fee4a9"/>
+    <rect id="Rectángulo_294605" data-name="Rectángulo 294605" width="192" height="113" rx="5" transform="translate(441.631 858)" fill="#fee4a9"/>
+    <rect id="Rectángulo_294606" data-name="Rectángulo 294606" width="218" height="113" rx="5" transform="translate(690.631 858)" fill="#fee4a9"/>
+    <rect id="Rectángulo_294607" data-name="Rectángulo 294607" width="218" height="141" rx="5" transform="translate(963.631 858)" fill="#fee4a9"/>
+    <rect id="Rectángulo_294608" data-name="Rectángulo 294608" width="218" height="113" rx="5" transform="translate(1235.631 858)" fill="#fee4a9"/>
+    <text id="_PgAdmin4_PhpMyAdmin_Heidi_SQL_Adminer" data-name="● PgAdmin4
+● PhpMyAdmin
+● Heidi SQL
+● Adminer" transform="translate(181.631 867)" fill="#ffb30b" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">●</tspan><tspan y="17" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="17" fill="#12263f" font-family="Roboto-Regular, Roboto">PgAdmin4</tspan><tspan x="0" y="36">●</tspan><tspan y="36" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="36" fill="#12263f" font-family="Roboto-Regular, Roboto">PhpMyAdmin</tspan><tspan x="0" y="55">●</tspan><tspan y="55" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="55" fill="#12263f" font-family="Roboto-Regular, Roboto">Heidi SQL</tspan><tspan x="0" y="74">●</tspan><tspan y="74" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="74" fill="#12263f" font-family="Roboto-Regular, Roboto">Adminer</tspan></text>
+    <text id="_Read_ReadWrite_DbAdmin_DbOwner_UserAdmin" data-name="● Read
+● ReadWrite
+● DbAdmin
+● DbOwner
+● UserAdmin" transform="translate(455.631 867)" fill="#ffb30b" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">●</tspan><tspan y="17" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="17" fill="#12263f" font-family="Roboto-Regular, Roboto">Read</tspan><tspan x="0" y="36">●</tspan><tspan y="36" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="36" fill="#12263f" font-family="Roboto-Regular, Roboto">ReadWrite</tspan><tspan x="0" y="55">●</tspan><tspan y="55" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="55" fill="#12263f" font-family="Roboto-Regular, Roboto">DbAdmin</tspan><tspan x="0" y="74">●</tspan><tspan y="74" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="74" fill="#12263f" font-family="Roboto-Regular, Roboto">DbOwner</tspan><tspan x="0" y="93">●</tspan><tspan y="93" xml:space="preserve" fill="#12263f" font-family="Roboto-Regular, Roboto"> UserAdmin</tspan></text>
+    <text id="_Grand:_Crea_Permisos_en_el_sistema_Revoke:_Elimina_Permisos_en_el_sistema" data-name="● Grand: Crea Permisos en el sistema
+● Revoke: Elimina Permisos en el sistema" transform="translate(708.631 867)" fill="#ffb30b" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">●</tspan><tspan y="17" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="17" fill="#12263f" font-family="Roboto-Regular, Roboto">Grand: Crea Permisos </tspan><tspan x="0" y="36" fill="#12263f" font-family="Roboto-Regular, Roboto">en el sistema</tspan><tspan x="0" y="55">●</tspan><tspan y="55" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="55" fill="#12263f" font-family="Roboto-Regular, Roboto">Revoke: Elimina </tspan><tspan x="0" y="74" fill="#12263f" font-family="Roboto-Regular, Roboto">Permisos en el sistema</tspan></text>
+    <text id="_Contraseña_Expirada_por_defecto_Contraseña_Sin_Expiración_Contraseña_Expirada_en_un_tiempo" data-name="● Contraseña Expirada por defecto
+● Contraseña Sin Expiración● Contraseña Expirada en un tiempo" transform="translate(981.631 867)" fill="#ffb30b" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">●</tspan><tspan y="17" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="17" fill="#12263f" font-family="Roboto-Regular, Roboto">Contraseña Expirada </tspan><tspan x="0" y="36" fill="#12263f" font-family="Roboto-Regular, Roboto">por defecto</tspan><tspan x="0" y="55">●</tspan><tspan y="55" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="55" fill="#12263f" font-family="Roboto-Regular, Roboto">Contraseña Sin </tspan><tspan x="0" y="74" fill="#12263f" font-family="Roboto-Regular, Roboto">Expiración</tspan><tspan x="0" y="93">●</tspan><tspan y="93" xml:space="preserve" fill="#12263f" font-family="Roboto-Regular, Roboto"> Contraseña Expirada en </tspan><tspan x="0" y="112" fill="#12263f" font-family="Roboto-Regular, Roboto">un tiempo</tspan></text>
+    <text id="_Creación_de_Usuario_Eliminación_de_Usuario" data-name="● Creación de Usuario● Eliminación de Usuario" transform="translate(1253.631 892)" fill="#ffb30b" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">●</tspan><tspan y="17" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="17" fill="#12263f" font-family="Roboto-Regular, Roboto">Creación de Usuario</tspan><tspan x="0" y="36">●</tspan><tspan y="36" font-family="Roboto-Regular, Roboto"> </tspan><tspan y="36" fill="#12263f" font-family="Roboto-Regular, Roboto">Eliminación de Usuario</tspan></text>
+    <line id="Línea_378" data-name="Línea 378" x2="545" y2="182" transform="translate(800.131 577.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_381" data-name="Línea 381" x1="262" y2="182" transform="translate(538.131 577.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <g id="Grupo_130450" data-name="Grupo 130450" transform="translate(-259.036 -4236)">
+      <path id="Trazado_116256" data-name="Trazado 116256" d="M7.483,0H215.517A7.767,7.767,0,0,1,223,8.023V60.977A7.767,7.767,0,0,1,215.517,69H7.483A7.767,7.767,0,0,1,0,60.977V8.023A7.767,7.767,0,0,1,7.483,0Z" transform="translate(424.667 4995)" fill="#75e3d9"/>
+      <text id="Tipos_de_herramientas_de_Administración_de_BC" data-name="Tipos de herramientas de
+Administración de BC" transform="translate(444.667 5024)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Tipos de herramientas de</tspan><tspan x="0" y="24">Administración de BC</tspan></text>
+    </g>
+    <g id="Grupo_130451" data-name="Grupo 130451" transform="translate(16.963 -4236)">
+      <path id="Trazado_116256-2" data-name="Trazado 116256" d="M6.443,0H185.557C189.115,0,192,2.343,192,5.233V39.767c0,2.89-2.885,5.233-6.443,5.233H6.443C2.885,45,0,42.657,0,39.767V5.233C0,2.343,2.885,0,6.443,0Z" transform="translate(424.667 4995)" fill="#75e3d9"/>
+      <text id="Sistema_de_permisos" data-name="Sistema de permisos" transform="translate(444.667 5024)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Sistema de permisos</tspan></text>
+    </g>
+    <g id="Grupo_133565" data-name="Grupo 133565" transform="translate(265.964 -4236)">
+      <path id="Trazado_116256-3" data-name="Trazado 116256" d="M7.315,0H210.685C214.725,0,218,2.343,218,5.233V39.767c0,2.89-3.275,5.233-7.315,5.233H7.315C3.275,45,0,42.657,0,39.767V5.233C0,2.343,3.275,0,7.315,0Z" transform="translate(424.667 4995)" fill="#75e3d9"/>
+      <text id="Lenguaje_de_Control_DCL" data-name="Lenguaje de Control DCL" transform="translate(444.667 5024)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Lenguaje de Control DCL</tspan></text>
+    </g>
+    <g id="Grupo_133568" data-name="Grupo 133568">
+      <path id="Trazado_116256-4" data-name="Trazado 116256" d="M7.326,0H210.979c4.046,0,7.326,2.343,7.326,5.233V39.767c0,2.89-3.28,5.233-7.326,5.233H7.326C3.28,45,0,42.657,0,39.767V5.233C0,2.343,3.28,0,7.326,0Z" transform="translate(963.631 759)" fill="#75e3d9"/>
+      <text id="Gestión_de_seguridad" data-name="Gestión de seguridad" transform="translate(996.631 788)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Gestión de seguridad</tspan></text>
+    </g>
+    <g id="Grupo_133569" data-name="Grupo 133569">
+      <path id="Trazado_116256-5" data-name="Trazado 116256" d="M7.282,0H209.718C213.74,0,217,2.343,217,5.233V39.767c0,2.89-3.26,5.233-7.282,5.233H7.282C3.26,45,0,42.657,0,39.767V5.233C0,2.343,3.26,0,7.282,0Z" transform="translate(1236.631 759)" fill="#75e3d9"/>
+      <text id="Ejecución_de_Scripts" data-name="Ejecución de Scripts" transform="translate(1271.631 788)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Ejecución de Scripts</tspan></text>
+    </g>
+    <line id="Línea_491" data-name="Línea 491" y2="182" transform="translate(800.131 577.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_492" data-name="Línea 492" x1="516" y2="182" transform="translate(284.131 577.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Línea_493" data-name="Línea 493" x2="273" y2="182" transform="translate(800.131 577.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="611" height="107" viewBox="0 0 611 107">
+  <g id="Grupo_146539" data-name="Grupo 146539" transform="translate(-495 -9054)">
+    <path id="Trazado_203850" data-name="Trazado 203850" d="M0,0,611,2.013V107L0,104.987Z" transform="translate(495 9054)" fill="#12263f"/>
+    <text id="CREATE_EVENT_insertion_event_ON_SCHEDULE_AT_CURRENT_TIMESTAMP_INTERVAL_1_MINUTE_DO_INSERT_INTO_test_VALUES_Evento_1_NOW_" data-name="CREATE EVENT insertion_event
+ON SCHEDULE AT CURRENT_TIMESTAMP + INTERVAL 1 MINUTE
+DO INSERT INTO test VALUES (&apos;Evento 1&apos;, NOW());" transform="translate(514 9074)" fill="#fff" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="17">CREATE EVENT insertion_event</tspan><tspan x="0" y="41">ON SCHEDULE AT CURRENT_TIMESTAMP + INTERVAL 1 MINUTE</tspan><tspan x="0" y="65">DO INSERT INTO test VALUES (&apos;Evento 1&apos;, NOW());</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1303" height="406.785" viewBox="0 0 1303 406.785">
+  <g id="Grupo_146543" data-name="Grupo 146543" transform="translate(-180 -10974)">
+    <rect id="Rectángulo_294624" data-name="Rectángulo 294624" width="91.085" height="496.125" rx="10" transform="translate(1048.125 10974) rotate(90)" fill="#084a93"/>
+    <text id="TIPOS_DE_ÍNDICES" data-name="TIPOS DE ÍNDICES" transform="translate(667 11030.883)" fill="#fff" font-size="36" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Tipos de índices</tspan></text>
+    <rect id="Rectángulo_294625" data-name="Rectángulo 294625" width="250" height="228.738" transform="translate(408.738 11130.785) rotate(90)" fill="#fff4da"/>
+    <rect id="Rectángulo_294776" data-name="Rectángulo 294776" width="250" height="228.738" transform="translate(661.738 11130.785) rotate(90)" fill="#fff4da"/>
+    <rect id="Rectángulo_294777" data-name="Rectángulo 294777" width="250" height="228.738" transform="translate(914.738 11130.785) rotate(90)" fill="#fff4da"/>
+    <rect id="Rectángulo_294778" data-name="Rectángulo 294778" width="250" height="228.738" transform="translate(1166.738 11130.785) rotate(90)" fill="#fff4da"/>
+    <rect id="Rectángulo_294779" data-name="Rectángulo 294779" width="250" height="228.738" transform="translate(1419.738 11130.785) rotate(90)" fill="#fff4da"/>
+    <line id="Línea_494" data-name="Línea 494" x2="30.496" transform="translate(1052.5 11100.289) rotate(90)" fill="none" stroke="#084a93" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Línea_495" data-name="Línea 495" x2="30.496" transform="translate(1305.5 11100.289) rotate(90)" fill="none" stroke="#084a93" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Línea_496" data-name="Línea 496" x2="30.496" transform="translate(547.5 11100.289) rotate(90)" fill="none" stroke="#084a93" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Línea_497" data-name="Línea 497" x2="30.496" transform="translate(294.5 11100.289) rotate(90)" fill="none" stroke="#084a93" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Línea_498" data-name="Línea 498" x2="73.276" transform="translate(800.451 11057.509) rotate(90)" fill="none" stroke="#084a93" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Línea_499" data-name="Línea 499" x1="1011" transform="translate(294.5 11100.289)" fill="none" stroke="#084a93" stroke-miterlimit="10" stroke-width="2"/>
+    <text id="PRIMARY_Crear_índices_de_un_único_valor_sobre_una_columna." data-name="PRIMARY
+
+Crear índices de un único valor sobre una columna." transform="translate(288 11161.785)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-34.852" y="17">PRIMARY</tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="41"></tspan><tspan x="-89.617" y="65">Crear índices de un único </tspan><tspan x="-89.602" y="89">valor sobre una columna.</tspan></tspan></text>
+    <text id="INDEX_Crea_índices_sobre_una_o_varias_columnas_que_sean_iguales_al_índice_este_tipo_de_índice_no_aplica_ninguna_característica_especial." data-name="INDEX
+
+Crea índices sobre una o varias columnas que sean iguales al índice;
+este tipo de índice no aplica ninguna 
+característica especial." transform="translate(545 11161.785)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-22.762" y="17">INDEX</tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="41"></tspan><tspan x="-87.68" y="65">Crea índices sobre una o </tspan><tspan x="-73.453" y="89">varias columnas que </tspan><tspan x="-77.82" y="113">sean iguales al índice;</tspan><tspan x="-75.738" y="137">este tipo de índice no </tspan><tspan x="-51.676" y="161">aplica ninguna </tspan><tspan x="-81.98" y="185">característica especial.</tspan></tspan></text>
+    <text id="UNIQUE_Crea_índices_de_un_único_valor_por_columna_la_columna_no_admite_valores_duplicados_" data-name="UNIQUE
+ Crea índices de un único
+valor por columna(la columna no admite valores duplicados)" transform="translate(798 11161.785)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-28.535" y="17">UNIQUE</tspan><tspan x="0" y="41"> </tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="-86.91" y="65">Crea índices de un único</tspan><tspan x="-63.977" y="89">valor por columna</tspan><tspan x="-79.492" y="113">(la columna no admite </tspan><tspan x="-69.535" y="137">valores duplicados)</tspan></tspan></text>
+    <text id="FULLTEXT_Crear_índices_para_realizar_búsquedas_por_palabras_que_están_contenidas_en_un_texto_de_una_columna_aplica_para_tipo_de_datos_CHAR_VARCHAR_y_TEXT." data-name="FULLTEXT
+Crear índices para realizar búsquedas por palabras que están contenidas en un texto de una columna, aplica para tipo de datos CHAR, 
+VARCHAR y TEXT." transform="translate(1050 11161.785)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-36.992" y="17">FULLTEXT</tspan><tspan x="0" y="41"></tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="-64.309" y="65">Crear índices para </tspan><tspan x="-81.129" y="89">realizar búsquedas por </tspan><tspan x="-67.547" y="113">palabras que están </tspan><tspan x="-80.691" y="137">contenidas en un texto </tspan><tspan x="-81.578" y="161">de una columna, aplica </tspan><tspan x="-88.801" y="185">para tipo de datos CHAR, </tspan><tspan x="-64.02" y="209">VARCHAR y TEXT.</tspan></tspan></text>
+    <text id="SPATIAL_Crear_índices_sobre_datos_geométricos_para_búsquedas_que_correspondan_sólo_a_este_tipo_de_dato." data-name="SPATIAL
+
+Crear índices sobre datos geométricos para búsquedas que correspondan sólo a este tipo de dato." transform="translate(1303 11161.785)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-31.293" y="17">SPATIAL</tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="41"></tspan><tspan x="-68.688" y="65">Crear índices sobre </tspan><tspan x="-84.465" y="89">datos geométricos para </tspan><tspan x="-54.383" y="113">búsquedas que </tspan><tspan x="-89.969" y="137">correspondan sólo a este </tspan><tspan x="-44.383" y="161">tipo de dato.</tspan></tspan></text>
+  </g>
+</svg>

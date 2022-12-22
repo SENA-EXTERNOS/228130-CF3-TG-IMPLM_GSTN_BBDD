@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="611" height="131" viewBox="0 0 611 131">
+  <g id="Grupo_146537" data-name="Grupo 146537" transform="translate(-495 -8666)">
+    <path id="Trazado_203848" data-name="Trazado 203848" d="M0,0,611,2.464V131L0,128.536Z" transform="translate(495 8666)" fill="#12263f"/>
+    <text id="CREATE_TABLE_test_evento_VARCHAR_50_fecha_DATETIME_" data-name="CREATE TABLE test(
+ evento VARCHAR(50),
+ fecha DATETIME 
+); " transform="translate(514 8686)" fill="#fff" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="17">CREATE TABLE test(</tspan><tspan x="0" y="41" xml:space="preserve"> evento VARCHAR(50),</tspan><tspan x="0" y="65" xml:space="preserve"> fecha DATETIME </tspan><tspan x="0" y="89">); </tspan></text>
+  </g>
+</svg>
