@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Gestión y control de bases de datos',
     descripcionCurso:
-      'En la actualidad las bases de datos son fundamentales en las organizaciones, hay una frase célebre que dice: “uno de los principales activos de las organizaciones es su información”, pero además la información de una empresa es un patrimonio adquirido durante años; la construcción y estrategias que le permiten tener una solidez en sus ventas, consolidando una red de proveedores y clientes.',
+      'En la actualidad, las bases de datos son fundamentales para las empresas. La información es considerada uno de los principales activos de empresas, proyectos, programas y organizaciones; así mismo, se considera como un patrimonio adquirido a través de los procesos y el tiempo. La información es un elemento de gran aporte para la construcción y aplicación de estrategias que, entre otras, permiten obtener solidez en las ventas, consolidando redes de proveedores y clientes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -43,38 +43,6 @@ export default {
         numero: '1',
         titulo: 'Gestión de cuentas de usuario',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Tipos de herramientas de administración de bases de datos',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Sistema de permisos',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Lenguaje de control de datos DCL',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Gestión de seguridad',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Ejecución de <em>scripts</em> de restauración',
-            hash: 't_1_5',
-          },
-        ],
       },
 
       {
@@ -83,50 +51,6 @@ export default {
         numero: '2',
         titulo: 'Automatización de tareas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Herramientas para automatizar tareas',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Procedimientos y funciones de almacenados',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: '<em>Triggers</em>',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Vistas',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Eventos',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Tablas <em>spaces</em>',
-            hash: 't_2_6',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.7',
-            titulo: 'Tablas e índices',
-            hash: 't_2_7',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -171,21 +95,20 @@ export default {
   },
   complementario: [
     {
-      tema: 'Privilegios <em>MySQL</em>',
-      referencia:
-        'Zk. (2019). <em>Comandos grant y revoke MySQL</em> [video]. Youtube.',
+      tema: 'Automatización de tareas',
+      referencia: 'Zk. (2019). Comandos <i>grant y revoke</i> MySQL.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=oICTXgcqfRw',
     },
     {
-      tema: 'El sistema de privilegios de acceso de <em>MySQL</em>',
+      tema: 'Gestión de cuentas de usuario',
       referencia:
         '<em>Oracle and/or its affiliates. (2011). MySQL 5.0 reference manual.</em>',
       tipo: 'PDF',
       link: 'https://downloads.mysql.com/docs/refman-5.0-es.a4.pdf',
     },
     {
-      tema: 'Operaciones de Administración de <em>MongoDB</em>',
+      tema: 'Automatización de tareas',
       referencia:
         'Sarasa, A. (2016). <em>Introducción a las bases de datos NoSQL usando MongoDB.</em> Editorial UOC.',
       tipo: 'PDF',
@@ -193,7 +116,7 @@ export default {
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/58524?page=14',
     },
     {
-      tema: '<em>Trigger</em>>',
+      tema: 'Automatización de tareas',
       referencia:
         'Martínez, D. & Tejada, L. (2019). <em>Manual de bases de datos.</em> Universidad Abierta para Adultos (UAPA).',
       tipo: 'PDF',
@@ -255,40 +178,40 @@ export default {
   referencias: [
     {
       referencia:
-        '<em>Aguilar, J. (s.f.). HeidiSQL para la gestión de bases de datos grandes [Web log post]. Blogspot. Recuperado el 31 de octubre de 2022 de</em>',
+        'Aguilar, J. (s.f.). <i>HeidiSQL para la gestión de bases de datos grandes</i>. Blogspot.',
       link:
         'https://www.jose-aguilar.com/blog/wp-content/uploads/2013/10/heidi-sql.png',
     },
     {
       referencia:
-        'Capacho, J. & Nieto, W. (2017). <em>Diseño de base de datos.</em> Universidad del Norte.',
+        'Capacho, J. & Nieto, W. (2017).<i> Diseño de base de datos</i>. Universidad del Norte.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/70030?page=61',
     },
     {
       referencia:
-        'Coronel, C., Morris, S. & Rob, P. (2011). <em>Bases de datos: diseño, implementación y administración.</em> Cengage Learning.',
+        'Coronel, C., Morris, S. & Rob, P. (2011). <i>Bases de datos: diseño, implementación y administración</i>. Cengage Learning.',
     },
     {
       referencia:
-        'Hueso, L. (2016). <em>Administración de sistemas gestores de bases de datos.</em> Ediciones de la U.',
+        'Hueso, L. (2016). <i>Administración de sistemas gestores de bases de datos</i>. Ediciones de la U.',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7943',
     },
     {
       referencia:
-        'Kinsta. (2021). <em>Explorando una base de datos de WordPress con Adminer.</em>',
+        'Kinsta. (2021). <i>Explorando una base de datos de WordPress con Adminer</i>.',
       link:
         'https://kinsta.com/wp-content/uploads/2021/01/Exploring-WordPress-Database-With-Adminer.png',
     },
     {
       referencia:
-        'Martínez, D.; Tejada, L. (2019). <em>Manual de bases de datos.</em> Universidad Abierta para Adultos (UAPA).',
+        'Martínez, D. y Tejada, L. (2019). <i>Manual de bases de datos</i>. Universidad Abierta para Adultos (UAPA).',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/175897?page=166.',
     },
     {
       referencia:
-        'MySQL (2022). <em>Create procedure y create function. En Manual de referencia de MySQL 8.0.</em>',
+        'MySQL. (2022). Create procedure y create function. <i>En Manual de referencia de mysql 8.0.</i>',
       link: 'https://dev.mysql.com/doc/refman/8.0/en/create-procedure.html',
     },
     {

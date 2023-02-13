@@ -11,11 +11,10 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-botones
           h2 Gestión y control de bases de datos
-        p Las bases de datos han sido muy importantes para las organizaciones, a través de ellas se desarrollan estrategias de 
-          em marketing 
-          |por la cantidad de información que contienen; por tal motivo, es importante contar con personal idóneo y profesional para que opere de la mejor manera la organización de la información, utilizando las herramientas y aplicando las diferentes alternativas que buscan sacarle el mayor provecho a toda la información guardada.
-        p.mb-4 A continuación, se encuentra una actividad para que evalúe su nivel de comprensión respecto a los contenidos de este componente formativo. Consiste en colocar el enunciado en el concepto correcto. 
-          b ¡Mucha suerte!
+        p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+
+        p De acuerdo con la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha:
+
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

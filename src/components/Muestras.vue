@@ -477,56 +477,56 @@ div
       tr
         th 03 de marzo
         td 
-          p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          p Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
         td
           .h6.mb-0 $12.500.200
         td
           .h6.mb-0 $12.500.200
-          span.text-small Textos pequeños
+          span Textos pequeños
         td
           .h6 FDSD33
       tr
         th 03 de marzo
         td 
-          p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          p Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
         td
           .h6.mb-0 $12.500.200
         td
           .h6.mb-0 $12.500.200
-          span.text-small Textos pequeños
+          span Textos pequeños
         td
           .h6 FDSD33
       tr
         th 03 de marzo
         td 
-          p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          p Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
         td
           .h6.mb-0 $12.500.200
         td
           .h6.mb-0 $12.500.200
-          span.text-small Textos pequeños
+          span Textos pequeños
         td
           .h6 FDSD33
       tr
         th 03 de marzo
         td 
-          p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          p Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
         td
           .h6.mb-0 $12.500.200
         td
           .h6.mb-0 $12.500.200
-          span.text-small Textos pequeños
+          span Textos pequeños
         td
           .h6 FDSD33
       tr
         th 03 de marzo
         td 
-          p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
+          p Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
         td
           .h6.mb-0 $12.500.200
         td
           .h6.mb-0 $12.500.200
-          span.text-small Textos pequeños
+          span Textos pequeños
         td
           .h6 FDSD33
 
@@ -1420,13 +1420,13 @@ div
       //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       LineaTiempoD.color-secundario
-        p.text-small(numero="1" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+        p(numero="1" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
         
-        p.text-small(numero="2" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+        p(numero="2" titulo="Praesent luctus") Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
         
-        p.text-small(numero="3" titulo="Praesent luctus") Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
+        p(numero="3" titulo="Praesent luctus") Donec feugiat volutpat metus at pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet fermentum ex, in cursus nulla. Ut in sapien et enim suscipit accumsan at eu tellus. Integer faucibus finibus augue, vel aliquam dolor elementum et. Donec viverra leo quam, a lacinia quam cursus in. Donec feugiat volutpat metus at pulvinar.
         
-        p.text-small(numero="4" titulo="Praesent luctus") quam cursus in. Donec feugiat volutpat metus at pulvinar.
+        p(numero="4" titulo="Praesent luctus") quam cursus in. Donec feugiat volutpat metus at pulvinar.
 
     .col-md-6
       //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
@@ -1434,7 +1434,7 @@ div
       LineaTiempoD.color-primario
         .row(numero="1" titulo="Praesent luctus")
           .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
         
           .col-md-6
             figure
@@ -1447,12 +1447,12 @@ div
               img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
               figcaption Leyenda de la imagen
           .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
         
 
         .row(numero="3" titulo="Praesent luctus")
           .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
         
           .col-md-6
             figure
@@ -1464,7 +1464,7 @@ div
   LineaTiempoD.color-acento-contenido.mb-5
     .row(numero="1" titulo="Praesent luctus")
       .col-md-6.mb-4.mb-md-0
-        p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     
       .col-md-6
         figure
@@ -1477,12 +1477,12 @@ div
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
           figcaption Leyenda de la imagen
       .col-md-6.mb-4.mb-md-0
-        p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     
 
     .row(numero="3" titulo="Praesent luctus")
       .col-md-6.mb-4.mb-md-0
-        p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     
       .col-md-6
         figure
@@ -1714,7 +1714,7 @@ div
         .row.justify-content-between.align-items-center
           .col.mb-3.mb-sm-0
             h3.mb-1 Título del recurso
-            p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias  
+            p Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias  
           .col-sm-auto
             a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
               span Descargar
@@ -1731,7 +1731,7 @@ div
         .row.justify-content-between.align-items-center
           .col.mb-3.mb-sm-0
             h3.mb-1 Título del recurso
-            p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias 
+            p Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias 
           .col-sm-auto
             a.boton.color-acento-contenido(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
               span Descargar
@@ -1817,7 +1817,7 @@ div
               img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
 
         h3.text-center Intuition important
-        p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+        p Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
 
     .col-sm-6.col-lg-3.mb-4.mb-lg-0
       //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -1830,7 +1830,7 @@ div
               img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
 
         h3.text-center Intuition important
-        p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+        p Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
 
     .col-sm-6.col-lg-3.mb-4.mb-sm-0
       //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -1843,7 +1843,7 @@ div
               img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
 
         h3.text-center Intuition important
-        p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+        p Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
 
     .col-sm-6.col-lg-3
       //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -1856,7 +1856,7 @@ div
               img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
 
         h3.text-center Intuition important
-        p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+        p Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
 
 
   h3 Tarjetas conectadas

@@ -29,10 +29,9 @@
             em MySQL Enterprise monitor 
             |que facilitan la automatización y control de los servidores sin necesidad de recurrir a la programación en consola. Sin embargo, es primordial conocer las herramientas y sintaxis básicas para la creación de tareas automatizadas. A continuación, se explican las acciones del sistema para realizar tareas automáticas que ayuden con la gestión de información dispuesta en la base de datos.
 
-    Separador
-
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.1 Herramientas para automatizar tareas
+    h3(data-aos="fade-right") 
+      i.fas.fa-square.cac.me-3
+      |Herramientas para automatizar tareas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -53,13 +52,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img2-2.svg', alt='Herramientas para automatización')
 
-    .row.mb-4
-      .col-lg-6(data-aos="fade-right")
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 12.
-          br
-          em Herramientas para la gestión de la información
-
+    p.mb-5 El siguiente esquema le muestra las herramientas SQL y NoSQL, para la gestión de la información y sus especificaciones: 
     .row.justify-content-center.mb-5
       .col-lg-12.col-sm-8(data-aos="fade-right")
         ImagenInfografica.color-acento-botones
@@ -139,10 +132,10 @@
               |a la consola de base de datos 
               em MongoDB.
 
-    Separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.2 Procedimientos y funciones de almacenados
+    h3(data-aos="fade-right") 
+      i.fas.fa-square.cac.me-3
+      |Procedimientos y funciones de almacenados
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-sm-4(data-aos="fade-right")
@@ -218,7 +211,7 @@
                   em SQL SECURITY y DEFINER
                 |, permite a los usuarios con acceso a la base de datos registrar la rutina asociada.
               
-    p.mb-5(data-aos="fade-right") A continuación, se muestran los usos de las sintaxis de procedimientos almacenados según la opción que se vaya a realizar.
+    p.mb-5(data-aos="fade-right") A continuación, se presentan los usos de las sintaxis de procedimientos almacenados, según la opción que se vaya a realizar:
   
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="<em>CREATE PROCEDURE Y CREATE FUNCTION</em>")
@@ -230,7 +223,6 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/img2-9.png', alt='Precedimiento Create')
-              figcaption MySQL (2022). Create procedure y create function. En Manual de referencia de mysql 8.0.
       .py-4.py-md-5(titulo="<em>ALTER PROCEDURE Y ALTER FUNCTION</em>")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -259,11 +251,9 @@
             .titulo-sexto.color-acento-contenido.cfc(data-aos="fade-left")
               p.mb-0 SHOW CREATE {PROCEDURE | FUNCTION} sp_name
 
-    Separador
-
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.3 
-        em Triggers
+    h3(data-aos="fade-right") 
+      i.fas.fa-square.cac.me-3
+      |#[i Triggers]
 
     figure.mb-5(data-aos="zoom-in")
       .video
@@ -278,12 +268,14 @@
           em triggers 
           |o disparadores de base de datos son bloques 
           em PL/SQL
-          |, programa de almacenados que se ejecutan o disparan automáticamente cuando se producen acciones como insertar, actualizar o eliminar. Existen tres tipos de disparadores de bases de datos.
+          |, programa de almacenados que se ejecutan o disparan automáticamente cuando se producen acciones como insertar, actualizar o eliminar. 
+          
+        p Existen tres tipos de disparadores de bases de datos, como se muestra en la siguiente figura:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.col-sm-9(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido
-          h5 Figura 13.
+          h5 Figura 2
           br
           em Concepto de trigger
         figure
@@ -295,25 +287,28 @@
           img(src='@/assets/curso/temas/tema2/img2-12.svg', alt='Persona trabajando')
       .col-lg-9(data-aos="fade-left")
         TabsA.color-primario.mb-5
-          .tarjeta.color-secundario--borde.p-4(titulo="Disparadores de tablas")
+          .tarjeta.color-secundario--borde.p-4(titulo="Disparadores<br> de tablas")
             h4 Disparadores de tablas
             p Asociados a una tabla. Se disparan cuando se registra una determinada acción o evento de manipulación que altera la tabla (inserción, borrado o modificación de filas).
-          .tarjeta.color-secundario--borde.p-4(titulo="Disparaciones de sustitución")
+          .tarjeta.color-secundario--borde.p-4(titulo="Disparaciones<br> de sustitución")
             h4 Disparaciones de sustitución
             p Se disparan cuando se intenta ejecutar un comando de manipulación que afecta a la vista (inserción, borrado o modificación de filas).
-          .tarjeta.color-secundario--borde.p-4(titulo="Disparadores del sistema")
+          .tarjeta.color-secundario--borde.p-4(titulo="Disparadores<br> del sistema")
             h4 Disparadores del sistema
             p Se disparan o alertan cuando ocurre una acción del sistema o una acción de definición de datos (creación, modificación o eliminación de una tabla u otro objeto).
-
+    p.mb-5 El siguiente esquema le muestra los distintos usos que tienen los triggers:
     .row.justify-content-center.mb-5
       .col-lg-10.col-sm-9(data-aos="zoom-in")
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 3
+          br
+          em Utilización de los triggers       
         figure
-          img(src='@/assets/curso/temas/tema2/img2-13.svg', alt='Uso de triggers')
+          img(src='@/assets/curso/temas/tema2/1.svg', alt='Uso de triggers')
 
-    Separador
-
-    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.4 Vistas
+    h3(data-aos="fade-right") 
+      i.fas.fa-square.cac.me-3
+      |Vistas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -395,10 +390,9 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img2-21.svg', alt='Código')
 
-    Separador
-
-    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.5 Eventos
+    h3(data-aos="fade-right") 
+      i.fas.fa-square.cac.me-3
+      |Eventos
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-1.col-sm-2(data-aos="fade-right")
@@ -435,40 +429,31 @@
         figure
           img(src='@/assets/curso/temas/tema2/img2-25.svg', alt='Insertar registro')
 
-    Separador
-
-    #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.6 Tablas 
-        em Spaces
-
+    h3(data-aos="fade-right") 
+      i.fas.fa-square.cac.me-3
+      |Espacio de tabla 
+      em (tablespace)
+    p.mb-5 La idea de <i>tablespace</i> se considera como un concepto lógico. Son archivos virtuales acumulados, de muchas tablas, donde se almacenan registros, sirven para trabajar sobre tablas que se necesitan para realizar una tarea específica, minimizando los recursos del servidor y permitiendo realizar tareas más rápidas por la utilización del recurso que se necesita para dicha tarea.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.col-sm-9(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido
-          h5 Figura 14.
+          h5 Figura 4
           br
           em Concepto lógico de Tablespaces
         figure
           img(src='@/assets/curso/temas/tema2/img2-26.svg', alt='Concepto Tablespaces')
 
     .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema2/img2-27.svg', alt='Persona trabajando')      
       .col-lg-9(data-aos="fade-left")
-        p.mb-0 El concepto de 
-          em tablespace 
-          |se considera como un concepto lógico. Son archivos virtuales acumulados de muchas tablas, donde se almacenan registros, sirven para trabajar sobre tablas que se necesitan para realizar una tarea específica, minimizando los recursos del servidor y permitiendo realizar tareas más rápidas por la utilización del recurso que se necesita para dicha tarea; A continuación, se observa cómo se crea una 
-          em tablespece.
-      .col-lg-3.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema2/img2-27.svg', alt='Persona trabajando')
+        p A continuación, se muestra cómo se ejecuta la creación de un espacio de tabla:
+        img.img-a.img-t(src='@/assets/curso/temas/tema2/img2-28.svg', alt='Creación de tablespace')
 
-    .row.justify-content-center.mb-5
-      .col-lg-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img2-28.svg', alt='Creación de tablespace')
-
-    Separador
-
-    #t_2_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.7 Tablas e índices
+    h3(data-aos="fade-right") 
+      i.fas.fa-square.cac.me-3
+      |Tablas e índices
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.mb-sm-4(data-aos="fade-right")
@@ -478,14 +463,18 @@
         p Los índices son un tipo de acción que apunta a una o varias columnas almacenando información relacionada entre el contenido de la columna y el puntero de búsqueda; es decir, que el puntero se activa cuando encuentra coincidencia en la búsqueda que se da. Los índices cumplen con el objetivo de disminuir el tiempo de ejecución de una consulta en nuestra base de datos (la diferencia se nota aún más si se tienen grandes volúmenes de datos). Si no existen índices, 
           em MySQL 
           |busca la solicitud requerida desde la primera fila hasta la última, implicando un mayor tiempo de ejecución, mayores recursos para hacer la búsqueda de información, haciendo más demorado los tiempos de respuesta.
-        p.mb-0 A continuación, se encuentran los tipos de índices.
+        p.mb-0 A continuación, podemos conocer los tipos de índices:
 
     .row.justify-content-center.mb-5
+      .titulo-sexto.color-acento-contenido
+        h5 Figura 5
+        br
+        em Índices     
       .col-lg-12.col-sm-9(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema2/img2-30.svg', alt='Tipos de índices')
 
-    p.mb-5 Sintaxis para crear índices:
+    p.mb-5 La siguiente, es la instrucción o <b>sintaxis </b>para crear índices:
 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-sm-4(data-aos="fade-right")
@@ -539,16 +528,19 @@
         figure
           img(src='@/assets/curso/temas/tema2/img2-32.svg', alt='Código ejemplo')
 
-    p(data-aos="fade-down") El campo id no tiene un valor 
-      em YES 
-      |en la columna 
-      em Null
-      |, significa que no puede almacenar valores nulos. Registra un valor 
-      em PRI 
-      |en la columna de la llave 
-      em Key 
-      |indica que este campo es una clave primaria 
-      em primary key.
+        p.mt-5(data-aos="fade-down") El campo id no tiene un valor 
+          em YES 
+          |en la columna 
+          em Null
+          |, significa que no puede almacenar valores nulos. Registra un valor 
+          em PRI 
+          |en la columna de la llave 
+          em Key 
+          |indica que este campo es una clave primaria 
+          em primary key.
+
+    p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+
 
 </template>
 

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Definición y conceptos de algoritmos
+      h1 Gestión de cuentas de usuario
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.mb-sm-4(data-aos="fade-right")
@@ -20,10 +20,9 @@
           em NoSQL (MongoDB)
           |, los cuales se tratan a continuación.
 
-    Separador
-
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1 Tipos de herramientas de administración de bases de datos
+    h3(data-aos="fade-right") 
+      i.fas.fa-square.cac.me-3
+      |Tipos de herramientas de administración de bases de datos
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.col-10.order-lg-first.order-sm-last(data-aos="fade-right")
@@ -72,23 +71,19 @@
                   .col-auto
                     .row.justify-content-center.align-items-center.mb-3
                       .col-auto.mb-3.mb-sm-0
-                        p.text-small Para descargar esta aplicación, remítase al siguiente enlace:
+                        p Para descargar esta aplicación, remítase al siguiente enlace:
                       .col-auto.mb-3.mb-sm-0
                         a.boton.color-acento-botones(a href="https://www.filehorse.com/es/descargar-pgadmin/" target="_blank" type="application/url")
                           span(style='color:#12263F !important') Enlace web
                           i.fas.fa-link(style='color:#12263F !important')
                     .row.justify-content-center.align-items-center
                       .col-auto.mb-3.mb-sm-0
-                        p.text-small Para acceder al tutorial de instalación, haga clic en el siguiente enlace:
+                        p Para acceder al tutorial de instalación, haga clic en el siguiente enlace:
                       .col-auto.mb-3.mb-sm-0
                         a.boton.color-acento-botones(a href="https://youtu.be/bq9dOrwZ-KA" target="_blank" type="application/url")
                           span(style='color:#12263F !important') Enlace web
                           i.fas.fa-link(style='color:#12263F !important')
           .col-md-7(data-aos='fade-right')
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 1.
-              br
-              em Interfaz gráfica pgAdmin
             figure
               img(src='@/assets/curso/temas/tema1/img1-4.png', alt='pgAdmin')
 
@@ -108,16 +103,12 @@
                   .col-auto
                     .row.justify-content-center.align-items-center.mb-3
                       .col-auto.mb-3.mb-sm-0
-                        p.text-small Para descargar esta aplicación, remítase al siguiente enlace:
+                        p Para descargar esta aplicación, remítase al siguiente enlace:
                       .col-auto.mb-3.mb-sm-0
                         a.boton.color-acento-botones(a href="https://www.phpmyadmin.net/" target="_blank" type="application/url")
                           span(style='color:#12263F !important') Enlace web
                           i.fas.fa-link(style='color:#12263F !important')
           .col-md-7
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 2.
-              br
-              em Interfaz gráfica PhpMyAdmin
             figure
               img(src='@/assets/curso/temas/tema1/img1-5.png', alt='PhpMyAdmin')
 
@@ -132,13 +123,9 @@
               em Windows
               |. A través de esta interfaz se pueden editar datos, exportar estructuras y datos, adicionalmente editar xs, vistas, procesos y tablas.
           .col-md-7
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 3.
-              br
-              em Interfaz gráfica HeidiSQL
             figure
               img(src='@/assets/curso/temas/tema1/img1-6.png', alt='HeidiSQL')
-              figcaption Nota. Reproducida de HeidiSQL para la gestión de bases de datos grandes. Aguilar, J. (s.f.).
+              figcaption Nota: Tomado de Aguilar, J. (s.f.). 
 
         .row
           .col-md-5.mb-4.mb-md-0
@@ -152,18 +139,13 @@
               |; es decir, sirve para bases de datos 
               em SQL Y NoSQL.
           .col-md-7
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 4.
-              br
-              em Interfaz gráfica Adminer
             figure
               img(src='@/assets/curso/temas/tema1/img1-7.png', alt='Adminer')
-              figcaption Nota. Reproducida de Explorando una base de datos. WordPress con Adminer. Kinsta. (s.f.). 
+              figcaption Nota: Tomado de Explorando una base de datos. WordPress con Adminer. Kinsta. (s.f.). 
 
-    Separador
-
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Sistema de permisos
+    h3(data-aos="fade-right").pt-5 
+      i.fas.fa-square.cac.me-3
+      |Sistema de permisos
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-sm-2(data-aos="fade-right")
@@ -185,13 +167,13 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido
-          p
-            b Tabla 1. 
-            |Tabla de permisos en Mysql
+          h5 Tabla 1
+          br
+          span #[i Tabla de permisos en Mysql]
 
         .tabla-a.color-acento-contenido.mb-5
           table
-            caption Nota. Reproducida de Administración de sistemas gestores de bases de datos (p. 63). Hueso, L. (2016). Ediciones de la U. 
+            caption Nota: Tomada de Hueso, L. (2016).
             thead
               tr
                 th Nombre tabla
@@ -350,12 +332,12 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="flip-up")
         .titulo-sexto.color-acento-contenido
-          p
-            b Tabla 2. 
-            |Roles de bases de datos NoSql MongoDB
+          h5 Tabla 2
+          br
+          span #[i Roles de bases de datos NoSql MongoDB]
         .tabla-a.color-acento-contenido.mb-5
           table
-            caption Nota. Reproducida de Introducción a las bases de datos NoSQL usando MongoDB. Sarasa, A. (2016).
+            caption Nota: Tomado de Sarasa, A. (2016).
             thead
               tr
                 th Rol
@@ -442,10 +424,9 @@
               em userAdmin 
               |(Administración de usuario).
 
-    Separador
-
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.3 Lenguaje de control de datos DCL
+    h3(data-aos="fade-right") 
+      i.fas.fa-square.cac.me-3
+      |Lenguaje de control de datos, DCL
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-sm-4(data-aos="fade-right")
@@ -488,10 +469,6 @@
               |para autorizar, el SQL dispone de la siguiente sentencia con el usuario creado para este caso es Jorge al cual se le va a dar privilegios:
             .row.justify-content-center
               .col-lg-8
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 5.
-                  br
-                  em Visualización de usuario en consola Mysql
                 figure
                   img(src='@/assets/curso/temas/tema1/img1-12.png', alt='Consola MySQL')
         .row
@@ -501,10 +478,6 @@
               |G; se utiliza esta sentencia para ver los privilegios del usuario Jorge.
             .row.justify-content-center
               .col-lg-8
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 6.
-                  br
-                  em Pantallazos de privilegios usuario Jorge
                 figure
                   img(src='@/assets/curso/temas/tema1/img1-13.png', alt='Privilegios de usuario')
         .row
@@ -517,26 +490,23 @@
             .row.justify-content-center
               .col-lg-8
                 .titulo-sexto.color-acento-contenido
-                  h5 Figura 7.
-                  br
-                  em Sentencia para dar privilegios al usuario Jorge
                 figure
                   img(src='@/assets/curso/temas/tema1/img1-14.png', alt='Sentencia para dar privilegios de usuario')   
 
     .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="flip-up")
+      .col-lg-8(data-aos="flip-up")
         .tarjeta.bg-gradient.p-4
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
+            .col-auto
               img(src="@/assets/curso/temas/tema1/img1-16.svg" alt="Página Web")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  p.text-small Para afianzar los conocimientos sobre los privilegios se sugiere visitar la siguiente página web:
-                .col-sm-auto
-                  a.boton.color-acento-botones(a href="https://dev.mysql.com/doc/refman/5.7/en/creating-accounts.html#creating-accounts-granting-privileges" target="_blank" type="application/url")
-                    span.cst Enlace web
-                    i.fas.fa-link(style='color:#12263F !important')
+                  p Para afianzar los conocimientos sobre los privilegios, se sugiere visitar los enlaces propuestos en el material complementario.
+                //- .col-sm-auto
+                //-   a.boton.color-acento-botones(a href="https://dev.mysql.com/doc/refman/5.7/en/creating-accounts.html#creating-accounts-granting-privileges" target="_blank" type="application/url")
+                //-     span.cst Enlace web
+                //-     i.fas.fa-link(style='color:#12263F !important')
     
     h3(data-aos="fade-right")
       i.fas.fa-square.cac.me-3
@@ -591,10 +561,9 @@
                 br
                 em mysql> SHOW GRANTS FOR 'jorge'@'localhost';
 
-    Separador
-
-    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.4 Gestión de seguridad
+    h3(data-aos="fade-right") 
+      i.fas.fa-square.cac.me-3
+      |Gestión de seguridad
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-sm-4(data-aos="fade-right")
@@ -607,20 +576,20 @@
     .row.justify-content-center.mb-5
       .col-lg-7
          LineaTiempoD.color-secundario
-          p.text-small(numero="1" titulo="Usuario resumen") La creación de un usuario, 
+          p(numero="1" titulo="Usuario resumen") La creación de un usuario, 
             em CREATE USER 
             |crea una nueva fila en la 
             em mysql.usertabla 
             |del sistema. La fila de la cuenta refleja las propiedades especificadas en el extracto. Las propiedades no especificadas se establecen en sus valores predeterminados.
-          p.text-small(numero="2" titulo="Autenticación") El complemento de autenticación definido por el 
+          p(numero="2" titulo="Autenticación") El complemento de autenticación definido por el 
             em default_authentication_plugin 
             |variable del sistema y las credenciales vacías.
-          p.text-small(numero="3" titulo="<em>SSL/TLS</em>")
+          p(numero="3" titulo="<em>SSL/TLS</em>")
             em NONE
-          p.text-small(numero="4" titulo="Límites de recursos") Ilimitado
-          p.text-small(numero="5" titulo="Gestión de contraseñas") 
+          p(numero="4" titulo="Límites de recursos") Ilimitado
+          p(numero="5" titulo="Gestión de contraseñas") 
             em PASSWORD EXPIRE DEFAULT
-          p.text-small(numero="6" titulo="Bloqueo de cuenta")
+          p(numero="6" titulo="Bloqueo de cuenta")
             em ACCOUNT UNLOCK
       .col-lg-5.order-sm-first.order-lg-last.mb-sm-4
         figure
@@ -711,12 +680,11 @@
     .row.justify-content-center.mb-5
       .col-lg-6(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido
-          h5 Figura 8.
+          h5 Figura 1
           br
           em Mysql plugin de usuarios
         figure
           img(src='@/assets/curso/temas/tema1/img1-23.png', alt='Mysql plugin de usuarios')
-          figcaption Nota. Contraseña como texto no cifrado.
     
     h3(data-aos="fade-right")
       i.fas.fa-square.cac.me-3
@@ -886,12 +854,9 @@
                   p.mb-0
                     em |ACCOUNT UNLOCK}
 
-    Separador
-
-    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.5 Ejecución de 
-        em scripts 
-        |de restauración
+    h3(data-aos="fade-right") 
+      i.fas.fa-square.cac.me-3
+      |Ejecución de <i>scripts</i> de restauración
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -924,8 +889,6 @@
             p Se crea el archivo en el block de notas.
           .col-md-6
             .titulo-sexto.color-acento-contenido
-              h5 Figura 9.
-              br
               em Creación de scripts en bloc de notas
             figure
               img(src='@/assets/curso/temas/tema1/img1-28.png', alt='Scripts en bloc de notas')
@@ -935,8 +898,6 @@
               em .sql
           .col-md-6
             .titulo-sexto.color-acento-contenido
-              h5 Figura 10.
-              br
               em Archivo guardado como .sql
             figure
               img(src='@/assets/curso/temas/tema1/img1-29.png', alt='Archivo .sql')
@@ -948,8 +909,6 @@
               |donde está el documento.
           .col-md-6
             .titulo-sexto.color-acento-contenido
-              h5 Figura 11.
-              br
               em Sintaxis para ejecutar scripts, vista de bases de datos nueva, con tabla
             figure
               img(src='@/assets/curso/temas/tema1/img1-30.png', alt='Sintaxis para ejecutar scripts')
