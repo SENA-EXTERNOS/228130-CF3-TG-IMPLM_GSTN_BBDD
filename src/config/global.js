@@ -191,6 +191,7 @@ export default {
     {
       referencia:
         'Coronel, C., Morris, S. & Rob, P. (2011). <i>Bases de datos: diseño, implementación y administración</i>. Cengage Learning.',
+      link: 'https://issuu.com/cengagelatam/docs/bases_de_datos_coronel',
     },
     {
       referencia:

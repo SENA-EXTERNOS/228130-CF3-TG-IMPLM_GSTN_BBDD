@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1-1.png', alt='Escribiendo en portátil')
       .col-lg-6(data-aos="fade-left")
-        p.mb-0 El sistema de privilegios en los gestores de bases de datos permite la conexión al servidor asegurando que cada usuario legalmente conectado realice las operaciones permitidas. Como usuario, cuando se conecta a un servidor, la identidad se determina mediante el equipo desde el que se conecta por medio de la IP que la identifica y el nombre de usuario registrado. Posteriormente, cuando se efectúan peticiones o solicitudes y cuando se crea un usuario, los administradores han registrado privilegios de operación dentro de la base de datos de acuerdo con el perfil. Es decir, el servidor opera con cuentas que tienen permisos o privilegios que les permiten realizar tares especificas dentro del Gestor. Dichas cuentas y permisos se encuentran organizados en la base de datos que se está trabajando con 
+        p.mb-0 El sistema de privilegios en los gestores de bases de datos permite la conexión al servidor, asegurando que cada usuario legalmente conectado realice las operaciones permitidas. Como usuario, cuando se conecta a un servidor, la identidad se determina mediante el equipo desde el que se conecta por medio de la IP que la identifica y el nombre de usuario registrado. Posteriormente, cuando se efectúan peticiones o solicitudes y cuando se crea un usuario, los administradores han registrado privilegios de operación dentro de la base de datos de acuerdo con el perfil. Es decir, el servidor opera con cuentas que tienen permisos o privilegios que les permiten realizar tares especificas dentro del Gestor. Dichas cuentas y permisos se encuentran organizados en la base de datos que se está trabajando con 
           em SQL 
           |(
           em Mysql
@@ -26,7 +26,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.col-10.order-lg-first.order-sm-last(data-aos="fade-right")
-        p.mb-5 Se ha hablado sobre la importancia de los datos en una organización; las bases de datos son un grupo de información relacionada que se encuentra almacenada, de manera ordenada. Existe un sin número de bases de datos que organizan la información que diariamente se registrada en las organizaciones.
+        p.mb-5 Se ha hablado sobre la importancia de los datos en una organización; las bases de datos son un grupo de información relacionada que se encuentra almacenada, de manera ordenada. Existe un sinnúmero de bases de datos que organizan la información que diariamente se registra en las organizaciones.
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
@@ -47,7 +47,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1-3.svg', alt='Banco de datos')
       .col-lg-11.col-sm-10(data-aos="fade-left")
-        p.mb-0 Las bases de datos deben tener aliados que les permitan a los administradores hacer mejor su trabajo, es decir con más rapidez, se debe recordar que los datos se almacenan con el objetivo de ser guardados y posteriormente consultados, eliminados o modificados; además que la dinámica de una base de dato es tener actores que intervienen en ellas permitiendo la alimentación de la información, hablando de usuarios y administrando la información para la cual existen herramientas de gestión de bases de datos que facilitan el trabajo, como las que se a continuación.
+        p.mb-0 Las bases de datos deben tener aliados que les permitan a los administradores hacer mejor su trabajo, es decir con más rapidez, se debe recordar que los datos se almacenan con el objetivo de ser guardados y posteriormente consultados, eliminados o modificados; además que la dinámica de una base de dato es tener actores que intervienen en ellas permitiendo la alimentación de la información, hablando de usuarios y administrando la información para la cual existen herramientas de gestión de bases de datos que facilitan el trabajo, como las que se muestran a continuación.
 
     .tarjeta.tarjeta--azul.p-4
       SlyderA(tipo='b')(data-aos="zoom-in")
@@ -374,7 +374,7 @@
                 td
                   b
                     em userAdmin
-                td Permite crear y modificar roles de la base de datos actual. Indirectamente proporciona acceso super usuario a la base de datos o a un 
+                td Permite crear y modificar roles de la base de datos actual. Indirectamente proporciona acceso superusuario a la base de datos o a un 
                   em clúster
                   |. Es posible otorgar cualquier privilegio a cualquier usuario.
                   
@@ -394,7 +394,7 @@
           em MongoDB compass 
           |o 
           em Visual Studio Code 
-          |entre otros, a continuación, se pueden ver que permisos existen para el caso de 
+          |entre otros, a continuación, se pueden ver qué permisos existen para el caso de 
           em MongoDB.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -411,7 +411,7 @@
               em system.indexes, system. namespaces y system.profile
               |, y algunos privilegios sobre colecciones que no son del sistema (entre ellos no se incluye la lectura completa).
           .tarjeta.color-acento-contenido.p-3(x="83%" y="9%" numero="")
-            p Permite crear y modificar roles de la base de datos actual. Indirectamente proporciona acceso super usuario a la base de datos o a un clúster. Es posible otorgar cualquier privilegio a cualquier usuario.
+            p Permite crear y modificar roles de la base de datos actual. Indirectamente proporciona acceso superusuario a la base de datos o a un clúster. Es posible otorgar cualquier privilegio a cualquier usuario.
           .tarjeta.color-acento-contenido.p-3(x="33%" y="90%" numero="")
             p Los mismos privilegios que 
               em read
@@ -648,7 +648,7 @@
                 em IDENTIFIED WITH….BY 
                 |está aplicando solo a la cuenta nombrada del ejemplo, es decir 
                 em Admini1
-                |, se puede ver que las dos cuentas usan la contraseña posteriores para el caso; del primero va a ser un 
+                |, se puede ver que las dos cuentas usan las contraseñas posteriores para el caso; del primero va a ser un 
                 em password native 
                 |es decir asignado por la máquina, para el segundo es 
                 em admin2022
@@ -749,7 +749,7 @@
                   em CREATE USER 'jorge2021'@'localhost' REQUIRE X509;
                 p.mb-0
                   b X509. 
-                  |Las cuentas registradas con este requerimiento solicitan el certificado valido firmado, este uso siempre estará cifrado por lo cual el SSL es solicitada en este caso.
+                  |Las cuentas registradas con este requerimiento solicitan el certificado válido firmado, este uso siempre estará cifrado por lo cual el SSL es solicitada en este caso.
         .row
           h5.mb-4 Usuario SSL/TLS
           p El orden de 
@@ -814,7 +814,7 @@
                 em CREATE USER 'jorueda11'@'localhost' PASSWORD EXPIRE DEFAULT;
             h5.mb-0
               em PASSWORD EXPIRE NEVER
-            p.mb-3 Esta opción está dada para que las cuentas que tengan este requerimiento nunca expiren sus contraseñas.
+            p.mb-3 Esta opción está dada para qué las cuentas que tengan este requerimiento nunca expiren sus contraseñas.
             .titulo-sexto.color-acento-contenido.cfc(data-aos="fade-left")
               p.mb-0 
                 em CREATE USER 'jorueda11'@'localhost' PASSWORD EXPIRE NEVER;

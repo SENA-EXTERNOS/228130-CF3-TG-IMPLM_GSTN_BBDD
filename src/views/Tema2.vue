@@ -61,8 +61,8 @@
               img(src='@/assets/curso/temas/tema2/img2-3.svg', alt='Herramientas SQL')
           .tarjeta.color-acento-contenido.p-3(x="24%" y="82%" numero="")
             p.text-center Con esta herramienta podemos realizar modelado de datos, está dada para el desarrollo 
-              em SQL 
-              |y diseño, gestión, administración y mantenimiento de bases de datos. Creada por la empresa Oracle se puede instalar en 
+              em SQL,  
+              | diseño, gestión, administración y mantenimiento de bases de datos. Creada por la empresa Oracle se puede instalar en 
               em Windows, Linux y Mac OS.
           .tarjeta.color-acento-contenido.p-3(x="40%" y="82%" numero="")
             p.text-center Herramienta gráfica realizada por la empresa 
@@ -146,7 +146,7 @@
           em MySQL 5.0
         p Además, son un conjunto de comandos 
           em SQL 
-          |que pueden almacenarse en el servidor. Una vez que se realiza el almacenamiento, los usuarios no necesitan repetir los comandos simplemente se dirigen al proceso de almacenados.
+          |que pueden almacenarse en el servidor. Una vez que se realiza el almacenamiento, los usuarios no necesitan repetir los comandos, simplemente se dirigen al proceso de almacenados.
         p Los procesos de almacenados son útiles cuando:
         ol
           li.mb-3
@@ -288,13 +288,10 @@
       .col-lg-9(data-aos="fade-left")
         TabsA.color-primario.mb-5
           .tarjeta.color-secundario--borde.p-4(titulo="Disparadores<br> de tablas")
-            h4 Disparadores de tablas
             p Asociados a una tabla. Se disparan cuando se registra una determinada acción o evento de manipulación que altera la tabla (inserción, borrado o modificación de filas).
           .tarjeta.color-secundario--borde.p-4(titulo="Disparaciones<br> de sustitución")
-            h4 Disparaciones de sustitución
             p Se disparan cuando se intenta ejecutar un comando de manipulación que afecta a la vista (inserción, borrado o modificación de filas).
           .tarjeta.color-secundario--borde.p-4(titulo="Disparadores<br> del sistema")
-            h4 Disparadores del sistema
             p Se disparan o alertan cuando ocurre una acción del sistema o una acción de definición de datos (creación, modificación o eliminación de una tabla u otro objeto).
     p.mb-5 El siguiente esquema le muestra los distintos usos que tienen los triggers:
     .row.justify-content-center.mb-5
@@ -474,7 +471,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img2-30.svg', alt='Tipos de índices')
 
-    p.mb-5 La siguiente, es la instrucción o <b>sintaxis </b>para crear índices:
+    p.mb-5 La siguiente es la instrucción o <b>sintaxis </b>para crear índices:
 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-sm-4(data-aos="fade-right")
