@@ -212,7 +212,7 @@ export default {
     },
     {
       referencia:
-        'MySQL. (2022). Create procedure y create function. <i>En Manual de referencia de mysql 8.0.</i>',
+        'MySQL. (2022). Create procedure y create function. <i>En Manual de referencia de MySQL 8.0.</i>',
       link: 'https://dev.mysql.com/doc/refman/8.0/en/create-procedure.html',
     },
     {

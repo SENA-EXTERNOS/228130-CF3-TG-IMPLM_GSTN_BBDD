@@ -4,7 +4,7 @@
       <rect id="Rectángulo_294103" data-name="Rectángulo 294103" width="194.941" height="312.985" rx="20" transform="translate(358.374 368.987)" fill="#ffb30b"/>
       <ellipse id="Elipse_5181" data-name="Elipse 5181" cx="176.352" cy="58.281" rx="176.352" ry="58.281" transform="translate(617.52 334.822)" fill="#a6f4fe"/>
       <path id="Trazado_194612" data-name="Trazado 194612" d="M974.458,394.191c0,32.189-78.955,58.282-176.352,58.282S621.755,426.38,621.755,394.191V624.779c0,32.188,78.956,58.281,176.352,58.281s176.352-26.093,176.352-58.281V394.191Z" transform="translate(-4.236 -1.088)" fill="#00defc"/>
-      <text id="MYSQL" transform="translate(734.453 403.066)" font-size="35" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">MYSQL</tspan></text>
+      <text id="MySQL" transform="translate(734.453 403.066)" font-size="35" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">MySQL</tspan></text>
       <text id="APLICACIÓN" transform="translate(395.281 347.542)" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">APLICACIÓN</tspan></text>
       <rect id="Rectángulo_294104" data-name="Rectángulo 294104" width="98.392" height="162.347" rx="15" transform="translate(634.095 465.901)" fill="#00b1c9"/>
       <text id="TABLA" transform="translate(656.435 551.556)" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">TABLA</tspan></text>
